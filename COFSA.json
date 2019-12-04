@@ -366,7 +366,7 @@
 						"entries": [
 							"At 18th level, your strength has grown to surpass that of your ancestor, and your power over the ancient and primal magics of flame and ash is without peer.",
 							"As an action, you can spend 5 sorcery points to launch yourself skyward in a pillar of fire and smoke before crashing down at a location that you can see within 60 feet of your point of origin, unleashing a hellish blast of fire and cursed power at a creature within 5 feet of you. The target must make a Wisdom saving throw against your sorcerer spell save DC. The target takes {@dice 6d10} fire damage on a failed save, or half as much damage on a successful one.",
-							"If the target is slain by this attack, it is consumed instantly by flame, and the ashes coalesce into a {creature hell hound|MM}. Hell hounds summoned by this feature are elementals instead of fiends. The hell hound obeys your orders without question and acts during your turn. You can't have more than two hell hounds at a time from this feature. Creation of a third hell hound destroys the oldest one still alive. Each hell hound remains in your service until slain or until the third dawn after it was summoned, at which point it disintegrates into ash.",
+							"If the target is slain by this attack, it is consumed instantly by flame, and the ashes coalesce into a {@creature hell hound|MM}. Hell hounds summoned by this feature are elementals instead of fiends. The hell hound obeys your orders without question and acts during your turn. You can't have more than two hell hounds at a time from this feature. Creation of a third hell hound destroys the oldest one still alive. Each hell hound remains in your service until slain or until the third dawn after it was summoned, at which point it disintegrates into ash.",
 							"Once you use this feature, you can't do so again until you finish a long rest."
 						]
 					}]
@@ -659,7 +659,7 @@
 				}
 			],
 			"entries": [
-				"If you have a {creature shade widow} as your familiar, it gains additional hit points equal to your warlock level. Whenever it uses the Bite action, you can use your reaction to impose disadvantage on the target's first Constitution saving throw against the widow's poison."
+				"If you have a {@creature shade widow} as your familiar, it gains additional hit points equal to your warlock level. Whenever it uses the Bite action, you can use your reaction to impose disadvantage on the target's first Constitution saving throw against the widow's poison."
 			],
 			"source": "COFSA",
 			"page": 96,
@@ -910,7 +910,7 @@
 				}
 			],
 			"entries": [
-				"If you have a {creature symphonic songbird} as your familiar, it gains additional maximum hit points equal to your warlock level. You can choose to cast spells that require only verbal components as though you were in your familiar's space."
+				"If you have a {@creature symphonic songbird} as your familiar, it gains additional maximum hit points equal to your warlock level. You can choose to cast spells that require only verbal components as though you were in your familiar's space."
 			],
 			"source": "COFSA",
 			"page": 70,
@@ -1025,8 +1025,8 @@
 				}
 			],
 			"entries": [
-				"While you have a {creature wiggly cube} as your familiar, it gains additional maximum hit points equal to your warlock level.",
-				"When you reach 6th level, you can choose to have your {creature wiggly cube} grow to become a Medium creature, and at 14th level, you can choose to have your {creature wiggly cube} become a Large creature. You can change the size of the cube as a bonus action. Whenever it is Medium, it's Engulf damage improves to {@dice 2d8} initial damage and to {@dice 4d8} at the start of the cube's turn. When it is Large, the damage improves to {@dice 3d8} initial damage and to {@dice 5d8} at the start of the cube's turn."
+				"While you have a {@creature wiggly cube} as your familiar, it gains additional maximum hit points equal to your warlock level.",
+				"When you reach 6th level, you can choose to have your {@creature wiggly cube} grow to become a Medium creature, and at 14th level, you can choose to have your {@creature wiggly cube} become a Large creature. You can change the size of the cube as a bonus action. Whenever it is Medium, it's Engulf damage improves to {@dice 2d8} initial damage and to {@dice 4d8} at the start of the cube's turn. When it is Large, the damage improves to {@dice 3d8} initial damage and to {@dice 5d8} at the start of the cube's turn."
 			],
 			"source": "COFSA",
 			"page": 52,
@@ -1039,7 +1039,7 @@
 				}
 			],
 			"entries": [
-				"If you have a {creature haunted crow} as your familiar, it gains additional maximum hit points equal to your warlock level.",
+				"If you have a {@creature haunted crow} as your familiar, it gains additional maximum hit points equal to your warlock level.",
 				"While you have this familiar, it recovers a single use of its Shriek action whenever one of you reduces a creature to 0 hit points, and the saving throw DC of this action becomes equal to your warlock spell save DC."
 			],
 			"source": "COFSA",
@@ -1122,7 +1122,7 @@
 				}
 			],
 			"entries": [
-				"If you have an {creature eyeless watcher} as a familiar, it gains additional maximum hit points equal to your warlock level. Whenever your eyeless watcher takes the {action Help} action, it can use a bonus action to become {@condition invisible} until the start of its next turn."
+				"If you have an {@creature eyeless watcher} as a familiar, it gains additional maximum hit points equal to your warlock level. Whenever your eyeless watcher takes the {action Help} action, it can use a bonus action to become {@condition invisible} until the start of its next turn."
 			],
 			"source": "COFSA",
 			"page": 64,
@@ -1135,7 +1135,7 @@
 				}
 			],
 			"entries": [
-				"When you have a {creature dimcat} as your familiar, it gains additional maximum hit points equal to your warlock level. Whenever you cast a spell using a warlock spell slot while you have a {creature dimcat} as your familiar, you can choose to teleport up to 30 feet to a location you can see within 5 feet of your familiar."
+				"When you have a {@creature dimcat} as your familiar, it gains additional maximum hit points equal to your warlock level. Whenever you cast a spell using a warlock spell slot while you have a {@creature dimcat} as your familiar, you can choose to teleport up to 30 feet to a location you can see within 5 feet of your familiar."
 			],
 			"source": "COFSA",
 			"page": 81,
@@ -1243,8 +1243,8 @@
 				}
 			],
 			"entries": [
-				"If you have an {creature emberborn|COFSA} as your familiar, it gains additional hit points equal to your warlock level plus twice your Charisma modifier.",
-				"When you reach 11th level, the emberborn can grow in size to become a Medium creature, at your discretion. While it is Medium, its bite attack deals {@damage 2d6||Bite piercing} piercing damage and {@damage 2d6||Bite fire} fire damage, and the emberborn's speed increases to 50 feet. Creatures hit by the bite attack must succeed on a DC 13 Strength saving throw or be knocked prone. At 16th level, the Medium emberborn's bite attack deals {@damage 3d6||Bite piercing} piercing damage and {@damage 3d6||Bite fire} fire damage, and the Strength saving throw DC equals your warlock spell save DC. "
+				"If you have an {@creature emberborn|COFSA} as your familiar, it gains additional hit points equal to your warlock level plus twice your Charisma modifier.",
+				"When you reach 11th level, the emberborn can grow in size to become a Medium creature, at your discretion. While it is Medium, its bite attack deals {@damage 2d6} piercing damage and {@damage 2d6} fire damage, and the emberborn's speed increases to 50 feet. Creatures hit by the bite attack must succeed on a DC 13 Strength saving throw or be knocked prone. At 16th level, the Medium emberborn's bite attack deals {@damage 3d6} piercing damage and {@damage 3d6} fire damage, and the Strength saving throw DC equals your warlock spell save DC. "
 			]
 		},
 		{"name": "Essence of the Sky",
@@ -1254,7 +1254,7 @@
 				}
 			],
 			"entries": [
-				"If you have a {creature spark seeker} as your familiar, it gains additional hit points equal to your warlock level. While you have a spark seeker as your familiar, you can cast spells that inflict lightning or thunder damage as though your familiar was the point of origin for the spell when determining the range and available targets."
+				"If you have a {@creature spark seeker} as your familiar, it gains additional hit points equal to your warlock level. While you have a spark seeker as your familiar, you can cast spells that inflict lightning or thunder damage as though your familiar was the point of origin for the spell when determining the range and available targets."
 			],
 			"source": "COFSA",
 			"page": 85,
@@ -1437,7 +1437,7 @@
 				}
 			],
 			"entries": [
-				"When you have an {creature imperial cobra} as your familiar, it gains additional maximum hit points equal to your warlock level. Whenever your familiar attacks a creature, you can use a bonus action to make a weapon attack against the same target."
+				"When you have an {@creature imperial cobra} as your familiar, it gains additional maximum hit points equal to your warlock level. Whenever your familiar attacks a creature, you can use a bonus action to make a weapon attack against the same target."
 			],
 			"source": "COFSA",
 			"page": 76,
@@ -1558,7 +1558,7 @@
 				}
 			],
 			"entries": [
-				"When you have an {creature animate image} as your familiar, it gains additional maximum hit points equal to your warlock level.",
+				"When you have an {@creature animate image} as your familiar, it gains additional maximum hit points equal to your warlock level.",
 				"The first time you attack a creature that the image has used the {action Help} action on within the past round, the creature takes slashing damage equal to your Charisma modifier."
 			],
 			"source": "COFSA",
@@ -1803,7 +1803,7 @@
 				}
 			],
 			"entries": [
-				"While you have a {creature record-hunter|COFSA} as your familiar, it gains additional maximum hit points equal to your warlock level, and you gain the ability to cast the {@spell mending} cantrip."
+				"While you have a {@creature record-hunter|COFSA} as your familiar, it gains additional maximum hit points equal to your warlock level, and you gain the ability to cast the {@spell mending} cantrip."
 			]
 		},
 		{"name": "Scripture of Natural Law",
@@ -1889,7 +1889,7 @@
 				}
 			],
 			"entries": [
-				"While you have a {creature scribeant swarm} as your familiar, it gains additional maximum hit points equal to your warlock level, and you gain advantage on {skill Investigation} and {skill Perception} checks."
+				"While you have a {@creature scribeant swarm} as your familiar, it gains additional maximum hit points equal to your warlock level, and you gain advantage on {skill Investigation} and {skill Perception} checks."
 			],
 			"source": "COFSA",
 			"page": 90,
@@ -2027,7 +2027,7 @@
 				}
 			],
 			"entries": [
-				"If you have a {creature luminous shard} as your familiar, it gains additional hit points equal to your warlock level, and it can teleport up to 30 feet using a bonus action."
+				"If you have a {@creature luminous shard} as your familiar, it gains additional hit points equal to your warlock level, and it can teleport up to 30 feet using a bonus action."
 			],
 			"source": "COFSA",
 			"page": 41,
@@ -2208,7 +2208,7 @@
 				}
 			],
 			"entries": [
-				"If you have a {creature wealth mimic} as your familiar, it gains additional hit points equal to your warlock level.",
+				"If you have a {@creature wealth mimic} as your familiar, it gains additional hit points equal to your warlock level.",
 				"While you have a wealth mimic as your familiar and you are attuned to an object, you can have your familiar become a perfect duplicate of the object. It loses its normal statistics and gains any magical features of the object until it changes form."
 			],
 			"source": "COFSA",
@@ -2222,7 +2222,7 @@
 				}
 			],
 			"entries": [
-				"If you have a {creature bloodless wanderer} as your familiar, it gains additional hit points equal to your warlock level.",
+				"If you have a {@creature bloodless wanderer} as your familiar, it gains additional hit points equal to your warlock level.",
 				"While you have a bloodless wanderer as your familiar, you can touch a creature as an action to sacrifice a number of hit points up to your warlock level. The target recovers hit points equal to the amount you lost."
 			],
 			"source": "COFSA",
