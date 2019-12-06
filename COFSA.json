@@ -675,19 +675,19 @@
 				"Alarm",
 				"Charm Person",
 				"Knock",
-				{"spell": "Sinister Threat",
+				{"name": "Sinister Threat",
 				"source": "COFSA"},
-				{"spell": "Blackened Heart",
+				{"name": "Blackened Heart",
 				"source": "COFSA"},
-				{"spell": "Detect Interference",
+				{"name": "Detect Interference",
 				"source": "COFSA"},
-				{"spell": "Invitation",
+				{"name": "Invitation",
 				"source": "COFSA"},
-				{"spell": "Unspoken Agreement",
+				{"name": "Unspoken Agreement",
 				"source": "COFSA"},
-				{"spell": "Nemesis",
+				{"name": "Nemesis",
 				"source": "COFSA"},
-				{"spell": "Overwhelming Emotion",
+				{"name": "Overwhelming Emotion",
 				"source": "COFSA"}
 			],
 			"subclassFeatures": [
@@ -1340,7 +1340,7 @@
 		  "page": 54,
 		  "subclassSpells": [
 		    "Grease",
-				"Hideous Laughter",
+				"Tasha's Hideous Laughter",
 				"Acid Arrow",
 				"Enlarge/Reduce",
 				"Meld into Stone",
@@ -1376,7 +1376,7 @@
 		              "rows": [
 		                [
 		                  "1st",
-		                  "{@spell Grease}, {@spell Hideous Laughter}"
+		                  "{@spell Grease}, {@spell Tasha's Hideous Laughter}"
 		                ],
 		                [
 		                  "2nd",
