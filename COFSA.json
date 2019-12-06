@@ -785,9 +785,11 @@
 				[{"entries": [{"name": "Hidden Agenda",
 						"entries": [
 							"At 20th level, you reveal your true desires to the world and call upon the debts that you are owed. You are empowered as the life force of dozens of debtors is drawn into you. For 1 minute, you gain the following benefits.",
-							" • You gain 20 temporary hit points at the start of each of your turns that last for the duration of this feature.",
-							" •  Whenever you steal a weapon using your Rate of Exchange feature, you can immediately make a weapon attack using it. This does not require an action.",
-							" •  When you hit a creature with a melee weapon attack, you can choose to unleash a blast of golden light. The target must make a Wisdom saving throw against your paladin spell save DC. If they fail, they are blinded until the end of your next turn.",
+							{"type": "list",
+										"items":[
+							"You gain 20 temporary hit points at the start of each of your turns that last for the duration of this feature.",
+							"Whenever you steal a weapon using your Rate of Exchange feature, you can immediately make a weapon attack using it. This does not require an action.",
+							"When you hit a creature with a melee weapon attack, you can choose to unleash a blast of golden light. The target must make a Wisdom saving throw against your paladin spell save DC. If they fail, they are blinded until the end of your next turn."]},
 							"Once you use this feature, you can’t do so again until you finish a long rest."
 						]
 					}]
