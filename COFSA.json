@@ -913,7 +913,7 @@
 										{"type": "entries",
 											"name": "Aegis Strike",
 											"entries": [
-												"Prerequisite: Timeless Monumental archetype",
+												"{@i Prerequisite: Timeless Monumental archetype}",
 												"When you take the Attack action on your turn, and hit a creature with a weapon attack, you can choose to have your attack deal no damage. Instead, the target is wreathed in a punishing barrier of energy. The first time the target makes an attack before the start of your next turn, it takes radiant damage equal to {@dice 2d6} + your Charisma modifier."
 											]
 										}
@@ -924,7 +924,7 @@
 										{"type": "entries",
 											"name": "Fortification",
 											"entries": [
-												"Prerequisite: Timeless Monumental archetype",
+												"{@i Prerequisite: Timeless Monumental archetype}",
 												"When you take the Attack action on your turn, you can forgo one of your attacks in order to summon a wall of magical stone in an open space within 10 feet of you. The wall has AC equal to your AC, has hit points equal to your fighter level, and is up to 5 feet long, 5 feet tall, and 1 foot thick. At the start of your next turn, the wall instantly crumbles into dust before vanishing."
 											]
 										}
@@ -1479,6 +1479,559 @@
 		      }]
 		    }]
 		  ]
+		},
+		{"name": "The Gray Portrait",
+		  "shortName": "Gray Portrait",
+		  "class": "Warlock",
+		  "source": "COFSA",
+		  "page": 60,
+		  "subclassSpells": [
+		    "Color Spray",
+				"Sanctuary",
+				"Calm Emotions",
+				"Enhance Ability",
+				"Glyph of Warding",
+				"Sending",
+				"Death Ward",
+				"Stone Shape",
+				"Mislead",
+				"Seeming"
+		  ],
+		  "subclassFeatures": [
+		    [{"name": "The Gray Portrait",
+		      "entries": [
+		        "Your dedication to art and beauty has led you to discover the art of creating a Gray Portrait: an artifact that your soul and body are bound to that channels the ambitions you have always held but never revealed. The portrait reflects your inner self and the dark desires you hold, and suffers the damage you would take, the diseases you would contract, and the cruelty you may inflict. It grants you the power to use your art to perform feats of incredible magic, and to paint beauty and ugliness alike upon the fabric of reality. This freedom often has hideous consequences, as you are forever tormented by the demands of that horrible self that lurks within your painted mirror. You are not yourself. You are a copy, a false perfection created by a master, and your master’s demands must be met. The Portrait requires it.",
+		        {"name": "Expanded Spell List",
+		          "entries": [
+		            "The Gray Portrait lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+		            {"type": "table",
+		              "caption": "Gray Portrait Expanded Spells",
+		              "colLabels": [
+		                "Spell Level",
+		                "Spells"
+		              ],
+		              "colStyles": [
+		                "col-3 text-center",
+		                "col-9"
+		              ],
+		              "rows": [
+		                [
+		                  "1st",
+		                  "{@spell Color spray}, {@spell Sanctuary}"
+		                ],
+		                [
+		                  "2nd",
+		                  "{@spell Calm Emotions}, {@spell Enhance Ability}"
+		                ],
+		                [
+		                  "3rd",
+		                  "{@spell Glyph of Warding}, {@spell Sending}"
+		                ],
+		                [
+		                  "4th",
+		                  "{@spell Death Ward}, {@spell Stone Shape}"
+		                ],
+		                [
+		                  "5th",
+		                  "{@spell Mislead}, {@spell Seeming}"
+		                ]
+		              ]
+		            }
+		          ]
+		        },
+		        {"name": "Bound to the Portrait",
+		          "entries": [
+		            "At 1st level, you create and magically bind yourself to your Gray Portrait. The Gray Portrait is a Small or Medium object that weighs at least 15 pounds, has AC 15, hit points equal to four times your warlock level, resistance to all damage, and uses your statistics for saving throws. It can be repaired at a rate of 1 hit point per minute. You can choose to see through the Portrait’s eyes at any time and are always aware of its current state. If your portrait is destroyed, you tirelessly construct another during your next long rest, and you gain no benefit from that long rest.",
+								"If a spell has the sole effect of restoring you to life, such as {@spell revivify}, the caster can cast the spell on the portrait as though it were your whole corpse without using material components,causing you to step forth from your portrait. However, if your portrait is destroyed and you are dead, you can’t be revived without the use of the {@spell wish} spell.",
+								"You can use your action to cure yourself of any effect that is causing you to be poisoned, diseased, cursed, blinded, or deafened, sending the affliction to appear on your portrait. You can’t do this if it is destroyed"
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Hunger Within",
+		        "entries": [
+		          "At 6th level, your portrait’s desires begin to catch up to you, and only cruelty or creation will sate it. Whenever a creature succeeds on a saving throw against a spell you cast using a warlock spell slot, you can use your bonus action to tear an unseen fraction of their life from them. When you do, you learn the target’s ability scores. For 1 minute, you gain advantage on ability checks and saving throws associated with their highest ability score, and they gain disadvantage on their first saving throw associated with that score.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "The Painted World",
+		        "entries": [
+		          "At 10th level, your distinction between reality and the false world of art grows ever thinner. As a bonus action, you can touch an artwork that is Large or larger, creating a portal to a demiplane. The demiplane can be up to 100 feet in every dimension, depending on the level of detail present in the artwork. Any object, creature, or effect can pass through into the art demiplane freely as though the art was an open doorway to another room. The demiplane duplicates the subject of the artwork, containing all objects and locations depicted therein. Everything within the artwork is static, including painted creatures, instantly disintegrates to dust if removed, and has no value. While within, everything from the real world changes in appearance to match the style of the art. A creature trying to detect that something within the art demiplane is real has disadvantage on checks made to do so, and creatures standing still within the art demiplane have advantage on Stealth checks. While you are in an art demiplane, you have advantage on checks made to identify objects, people, and concepts represented within.",
+							"If you leave the demiplane or if the painting is an animate image and it changes appearance or moves, every creature and object that entered from the real world is immediately ejected and the demiplane vanishes"
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "The Canvas of Reality",
+		        "entries": [
+		          "At 14th level, you learn to change the fabric of the universe to suit the cruel desires of your portrait. Whenever you cast a spell using a warlock spell slot, you can choose a 20-foot cube you can see within 60 feet of you. You can reshape unattended nonmagical objects within that space into different nonmagical objects. The new objects must be of the same size category as the previous objects or smaller and must be of equal or lesser value (measured in gold pieces) and can be of any material or quality so long as it meets the other requirements. For example, you could turn a pile of crates into a collection of chairs, a tree into a mound of ash, a diamond into a fine ruby, or a fortress wall into a pile of sand."
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "College of Portraiture",
+		  "shortName": "Portraiture",
+		  "class": "Bard",
+		  "source": "COFSA",
+		  "page": 62,
+		  "subclassFeatures": [
+		    [{"name": "College of Portraiture",
+		      "entries": [
+		        "Bards of the College of Portraiture are artisans first and foremost. Through your intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations. The creation of a Gray Portrait is a perversion of this technique, linking one’s whole essence and intrinsic talent to a single piece of art. Artisans like you view that heretical practice as shortsighted and limited. True artistic mastery lies in the ability to imbue each masterpiece with a fragment of one’s soul, binding each creation to the artist in an elegant and harmonious union. Your skill and talent in the manipulation of your life essence allows you to create and animate works of art in your own image. Narcissism is common among the practitioners of this College, though it can hardly be faulted. If everyone could portray themselves so beautifully, surely they would.",
+		        {"name": "Master Artisan",
+		          "entries": [
+		            "When you join the College of Portraiture at 3rd level, you gain the ability to create incredible works of art at a manic pace. You gain proficiency in any tools required to paint or create statuary, and you can add your proficiency bonus twice to all checks made with these tools.",
+								"You no longer require sleep, but must still perform light activity, such as reading, painting, or keeping watch, to gain the benefits of a rest.",
+								"During a rest, you can summon the materials and tools to create Small or Medium portraits or statues, and you can complete one such work each hour. You can also expend one use of your Bardic Inspiration per rest to grant yourself an artistic bonus. Roll a Bardic Inspiration die and add the result to your ability check to determine the quality of the your work. To finish a piece made with this feature, you must imbue it with a fragment of your soul, making it permanent and impossible to dispel. You can sell or give away imbued art, but you gain 1 level of exhaustion when someone else takes ownership of a piece."
+		          ]
+		        },
+		        {"name": "Living Exhibition",
+		          "entries": [
+		            "Also at 3rd level, you gain the ability to breathe life and purpose into artwork made in your image.",
+								"When you create a painting or statue that is a portrait of yourself and is equal to or smaller than your size, you can imbue it with a fragment of your soul and bring it to life by expending a spell slot of 1st level or higher.",
+								"The masterpiece becomes an animate portrait-soldier. Each portrait-soldier has hit points equal to twice your bard level + three times the level of the expended spell slot, has an AC equal to 12 + the level of the expended spell slot, and is equipped with a nonmagical version of a simple or martial weapon in which you have proficiency. If the weapon requires ammunition, the soldier appears with 30 pieces of ammunition in a quiver.",
+								"Portrait-soldiers share your statistics and act on your initiative, but automatically fail Wisdom and Intelligence ability checks and saving throws. Portrait-soldiers can’t speak, operate magical items, or cast spells and lack sufficient autonomy to attack without your magical direction. A creature that is charmed or frightened by you is also charmed or frightened by all of your portrait-soldiers.","When you take the {@action Attack} action, you can expend a spell slot of 1st level or higher to infuse a malevolent spark into your portrait-soldiers. A number of portrait-soldiers up to the level of the expended spell slot can take the Attack action until the end of your turn.",
+								"You can animate a number of portrait-soldiers equal to Charisma modifier (minimum 1). Every 24 hours, you must expend a spell slot for each in order to maintain the soul link that animates them, adjusting their hit point maximum and AC if necessary, or they crumble to dust."
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Legion's Defense",
+		        "entries": [
+		          "Starting at 6th level, your control over your portrait-soldiers improves. Whenever a creature would provoke an opportunity attack from a portrait-soldier, you can use your reaction to enable the soldier to make the attack.",
+							"Also, whenever two or more of your portrait-soldiers make a saving throw against the same effect and one succeeds, the others also succeed automatically."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Personal Unity",
+		        "entries": [
+		          "Starting at 14th level, the soul link with your portraitsoldiers becomes more efficient, enabling you to unlock the latent power within them. You can now animate a number of portrait-soldiers equal to twice your Charisma modifier (minimum 2).",
+							"Whenever you cast a spell, you can use one of your portraitsoldiers as the point of origin or as a vessel to deliver the spell. Whenever a portrait-solider would take damage, you can use your reaction to channel your life energy into it. The target gains temporary hit points equal to the number of hit points you sacrifice (up to your bard level).",
+							"Whenever you would take damage, you can use your reaction to sacrifice the life of one of your portrait-soldiers before the damage is applied. You gain temporary hit points equal to the portrait-soldier’s remaining hit points, and the portrait-soldier is destroyed."
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "The Keeper of the Depths",
+		  "shortName": "Keeper of the Depths",
+		  "class": "Warlock",
+		  "source": "COFSA",
+		  "page": 65,
+		  "subclassSpells": [
+		    "Identify",
+				"Sleep",
+				"Locate Object",
+				"Zone of Truth",
+		    {"name": "Crushing Tide",
+		      "source": "COFSA"},
+			  {"name": "Luring Light",
+					"source": "COFSA"},
+				"Control Water",
+		    {"name": "Sleepwalking",
+		      "source": "COFSA"},
+			  {"name": "Forgotten Pain",
+			    "source": "COFSA"},
+					"Legend Lore"
+		  ],
+		  "subclassFeatures": [
+		    [{"name": "The Keeper of the Depths",
+		      "entries": [
+		        "You’ve made a pact with an ancient oceanic entity known as the Keeper of the Depths. As life teems within the seas, so do the secrets of the forgotten ages – sunken cities, ships lost at sea, and treasures unimaginable gone to the darkest currents that churn with horrible tentacles and creatures from nightmare. The Keeper watches over all this hidden knowledge, and harvests ever more in its endless pursuit of the unspoken secrets of the universe. In the deepest crevices where sunlight has never been seen, all oceans are one to the Keeper of the Depths, and its desire is insatiable.",
+		        {"name": "Expanded Spell List",
+		          "entries": [
+		            "The Keeper of the Depths lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+		            {"type": "table",
+		              "caption": "Keeper of the Depths Expanded Spells",
+		              "colLabels": [
+		                "Spell Level",
+		                "Spells"
+		              ],
+		              "colStyles": [
+		                "col-3 text-center",
+		                "col-9"
+		              ],
+		              "rows": [
+		                [
+		                  "1st",
+		                  "{@spell Identify}, {@spell Sleep}"
+		                ],
+		                [
+		                  "2nd",
+		                  "{@spell Locate Object}, {@spell Zone of Truth}"
+		                ],
+		                [
+		                  "3rd",
+		                  "{@spell Crushing Tide|COFSA}, {@spell Luring Light|COFSA}"
+		                ],
+		                [
+		                  "4th",
+		                  "{@spell Control Water}, {@spell Sleepwalking|COFSA}"
+		                ],
+		                [
+		                  "5th",
+		                  "{@spell Forgotten Pain|COFSA}, {@spell Legend Lore}"
+		                ]
+		              ]
+		            }
+		          ]
+		        },
+		        {"name": "Secrets of the Lost",
+		          "entries": [
+		            "Starting at 1st level, your patron visits you in your dreams,  stealing fragments of your experiences in exchange for hidden knowledge. Whenever you finish a long rest, you gain proficiency in two skills, languages, or tools of your choice. You remain proficient in these until you finish another long rest, at which point you can choose new ones to replace them.",
+								"Additionally, you gain a swimming speed equal to your walking speed."
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Sailor's Nightmare",
+		        "entries": [
+		          "At 6th level, you learn to curse your enemies, using the weight of ethereal water to drag them into the sea’s embrace. As a bonus action, you can curse a creature that you can see within 60 feet of you for 1 minute. While the creature is afflicted by this curse, it cannot jump or fly, and it treats all terrain as difficult terrain. If the creature is flying or swimming, it automatically descends 60 feet at the start of each of its turns.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest. "
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Madness of the Deep",
+		        "entries": [
+							"At 10th level, the Keeper’s gaze looms over you. Whenever you take damage, you can use your reaction to unleash a wave of black ink to cloud the air in a 10-foot radius of your current location for one minute, heavily obscuring the area. Hostile creatures that end their turn within the area must make a Wisdom saving throw against your warlock spell save DC. If they fail, they are {@condition frightened} until the start of your next turn and must attempt to escape the cloud.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Hunger for Knowledge",
+		        "entries": [
+							"Starting at 14th level, you can summon the terrible maw of the Keeper to appear before you as an action. A massive beak surrounded by tentacles appears and attempts to grab a target of your choice within 30 feet. When a creature is targeted, it must make a Strength saving throw against your warlock spell save DC to shake off the grasp of the horror. If the target fails, it is dragged into the beak and bitten, taking {@dice 6d10} piercing damage and {@dice 6d10} psychic damage. If this is enough to reduce the target to 0 hit points, you can choose to have them be swallowed whole by the mouth, consuming them. Either way, the maw then immediately disappears.",
+							"Once you summon this maw, you can’t do so again until you finish a long rest.",
+							"If the maw consumes a creature using this feature, your patron visits you in your dreams during your next long rest and grants you a boon in return for the sacrifice. Choose any spell of 5th level or lower from the warlock or wizard spell lists. You can cast this spell twice using a warlock spell slot, after which it is lost. The spell is also lost if you sacrifice a new creature and select a new spell using this feature. "
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "Dream Cartography",
+		  "shortName": "Dream Cartography",
+		  "class": "Wizard",
+		  "source": "COFSA",
+		  "page": 67,
+		  "subclassFeatures": [
+		    [{"name": "Dream Cartography",
+		      "entries": [
+		        "The sleeping mind stares out into an endless vista, stitching together the thoughts and actions of the day into dreams. Yet, in a world of magic, especially to a practitioner of the arcane arts, dreams hold far greater revelations. By mapping one’s own mental landscape, new insights into reality can be found and harnessed. Many of these wizards often draw the attentions of the Keeper of the Depths, who may greet them by offering bargains both simple and terrible. Few have the liberty of continuing their pursuits without attracting its attention, as the ripples of magic across the dreamscape are particularly attractive to this ancient nightmare. You’ve chosen to begin to map your own dreams by pursuing this tradition, seeking insight into the lands beyond the veil of sleep.",
+		        {"name": "Dreamscape Spellbook",
+		          "entries": [
+		            "When you choose this tradition at 2nd level, you develop a peculiar memorization technique. You gain {@sense darkvision} out to 60 feet. Whenever you are in darkness, you can access your dreamscape spellbook, which is a mental construct that you’ve created to aid in your understanding of the spells you learn. When you are inscribing a spell into your physical spellbook during a long rest, you can choose to also inscribe the spell into your dreamscape spellbook without cost. You can copy down spells from your dreamscape spellbook into a physical spellbook in half the time it would normally take you to copy a spell."
+		          ]
+		        },
+		        {"name": "Upon the Veil of Night",
+		          "entries": [
+		            "Also at 2nd level, you learn to use your spellcasting to call forth fragments of your dreamworld into reality. Whenever you cast a spell of 1st level or higher using a spell slot, you can use your bonus action to create an effect based on the school of the spell you cast. You can use this feature a number of times equal to your Intelligence modifier (minimum 1), and you regain all expended uses when you finish a long rest.",
+								{"type": "list",
+								"items":[
+									{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "Abjuration",
+												"entries": ["You dream of a wall, infinite in majesty. Choose an unoccupied space that is up to 10 feet high, 10 feet wide, and one foot thick. A dreamscape wall appears in the location that lasts until the end of your next turn. The wall has hit points equal to your Intelligence modifier plus your wizard level (minimum 1), and AC 10."]
+											}
+									]
+							},
+									{"type": "entries",
+											"entries": [
+												{"type": "entries",
+														"name": "Conjuration",
+											"entries": ["You dream of a portal to faraway lands. Choose an unoccupied space within 5 feet of you. A portal appears in this space that lasts until the start of your next turn. Whenever you or another creature enters the portal, they teleport to an unoccupied point of your choosing within 20 feet of the portal, determined by you when they enter."]
+									}
+							]
+					},
+									{"type": "entries",
+									"entries": [
+										{"type": "entries",
+												"name": "Divination",
+									"entries": ["You dream of a star, shining above the world. A radiant light appears at a location of your choosing within 30 feet of you. This light counts as natural sunlight and casts bright light in a 50-foot radius and dim light in an additional 50-foot radius. The light lasts for 1 minute or until you dismiss it as a bonus action."]
+							}
+					]
+			},
+									{"type": "entries",
+							"entries": [
+								{"type": "entries",
+										"name": "Enchantment",
+							"entries": ["You dream of a beautiful landscape. One creature of your choosing within 30 feet of you must make a Wisdom saving throw against your wizard spell save DC. If they fail, they are charmed during their next turn and will move directly towards you by the safest open route. "]
+					}
+			]
+	},
+									{"type": "entries",
+					"entries": [
+						{"type": "entries",
+								"name": "Evocation",
+					"entries": ["You dream of a great cataclysm. Choose one creature targeted by your spell or a creature within 30 feet of you. That creature must make a Strength saving throw against your wizard spell save DC or be knocked prone."]
+			}
+	]
+},
+									{"type": "entries",
+				"entries": [
+					{"type": "entries",
+							"name": "Illusion",
+				"entries": ["You dream of a maze of mirrors and mist. You become heavily obscured until the start of your next turn, but you can see clearly from inside the fog."]
+		}
+]
+},
+									{"type": "entries",
+				"entries": [
+					{"type": "entries",
+							"name": "Necromancy",
+				"entries": ["You dream of an open grave. Choose a creature within 30 feet of you. The target must make a Wisdom saving throw against your wizard spell save DC. If they fail, the next time they take damage from a weapon attack, they also take extra necrotic damage equal to your wizard level."]
+		}
+]
+},
+									{"type": "entries",
+				"entries": [
+					{"type": "entries",
+							"name": "Transmutation",
+				"entries": ["You dream of a world, strange yet familiar. Choose a number of 5-foot cubes within 30 feet of you equal to the level of the spell cast. These cubes become difficult terrain for 1 minute."]
+		}
+]
+}
+									]}
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Descent into the Depths",
+		        "entries": [
+		          "Starting at 6th level, you learn to drag others with you into your dreams. Whenever you cast a spell of 1st level or higher while you have access to your dreamscape spellbook you can use your bonus action to enter a harmless dreamscape until the end of your next turn, reappearing at a location of your choosing within 30 feet of the point of your departure. You can touch a creature when you enter, bringing them with you. Neither of you can use actions or take damage while in this dreamscape. If you cannot reappear at the point you chose, you are shunted to the nearest open location and take 10 force damage."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "In the Place Beyond",
+		        "entries": [
+		          "At 10th level, your dreams come to you even in your waking moments. You can now access your dreamscape spellbook while you are in either dim light or darkness.",
+							"Additionally, you can choose to cast spells as though you were located at any point that you can see within 15 feet of your current location, provided that location is within dim light or darkness."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "The End of Sleep",
+		        "entries": [
+		          "At 14th level, you have encountered the dreams of a powerful entity and have learned the secrets of the universe from its ancient mind. This could be the Keeper of the Depths or another eldritch being that defies comprehension. Regardless of its nature, it offers you power over your dreams in exchange for the sacrifice of blood.",
+							"When you cast a spell of 6th level or higher using a spell slot, you can choose to recover all expended uses of your Upon the Veil of Night feature. When you do this, target one humanoid creature within 60 feet of you that you can see. If there are no other targets available, you must target yourself. The target must make a Wisdom saving throw against your wizard spell save DC. If they fail, they take {@dice 8d10} psychic damage as the eldritch entity feasts upon their mind. If they are slain by this damage, their body is consumed and they vanish into the dreamscape, leaving only magical items behind.",
+							"Once you use this feature, you can’t do so again until you finish a long rest."
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "The Perfect Chord",
+		  "shortName": "Perfect Chord",
+		  "class": "Warlock",
+		  "source": "COFSA",
+		  "page": 72,
+		  "subclassSpells": [
+		    {"name": "Shrill Whistle",
+		      "source": "COFSA"},
+					"Thunderwave",
+					"Knock",
+					"Silence",
+					"Beacon of Hope",
+				{"name": "Resonance",
+						"source": "COFSA"},
+					"Compulsion",
+				{"name": "Shattersong",
+						"source": "COFSA"},
+					"Animate Objects",
+					"Awaken"
+		  ],
+		  "subclassFeatures": [
+		    [{"name": "The Perfect Chord ",
+		      "entries": [
+		        "You have heard the most sublime sound in the world, and it has changed you forever. You’ve taken the resonance into your beating heart and it has brought meaning and inspiration to your days. The Perfect Chord resounds through the quiet places of the world as a clear and harmonious note that spirals with infinite complexity, gaining sentience and life with every sound it collects. It has no motive but to include every sound in the universe within itself, and it inspires others with an endless desire to find new forms of radiant music to call forth and collect.",
+		        {"name": "Expanded Spell List",
+		          "entries": [
+		            "The Perfect Chord  lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+		            {"type": "table",
+		              "caption": "Perfect Chord Expanded Spells",
+		              "colLabels": [
+		                "Spell Level",
+		                "Spells"
+		              ],
+		              "colStyles": [
+		                "col-3 text-center",
+		                "col-9"
+		              ],
+		              "rows": [
+		                [
+		                  "1st",
+		                  "{@spell Shrill Whistle|COFSA}, {@spell Thunderwave}"
+		                ],
+		                [
+		                  "2nd",
+		                  "{@spell Knock}, {@spell Silence}"
+		                ],
+		                [
+		                  "3rd",
+		                  "{@spell Beacon of Hope}, {@spell Resonance|COFSA}"
+		                ],
+		                [
+		                  "4th",
+		                  "{@spell Compulsion}, {@spell Shattersong|COFSA}"
+		                ],
+		                [
+		                  "5th",
+		                  "{@spell Animate Objects}, {@spell Awaken}"
+		                ]
+		              ]
+		            }
+		          ]
+		        },
+		        {"name": "Seeker of the Sound",
+		          "entries": [
+		            "At 1st level, your heartbeat is tuned to the Perfect Chord. You gain proficiency in the Performance skill and with all musical instruments. You can use a musical instrument as a spellcasting focus for your warlock spells, and can play it in place of using a verbal spellcasting component.",
+								"When you cast a spell that has only a verbal and somatic component, you can choose to cast it as though it only had a verbal component.",
+								"When you cast a spell of 1st level or higher that only has a verbal component, including those modified by this feature, you gain temporary hit points equal to your Charisma modifier that last for one minute. "
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Instrument of the Chord",
+		        "entries": [
+		          "At 6th level, your practice teaches you to turn others into your instruments. Using your bonus action, you can curse or harmonize with one creature within 60 feet of you. Each time you cast a spell using a warlock spell slot, you can cause that creature to vibrate in harmony with your spell. If the creature is friendly, its movement speed is doubled until the end of its next turn. If it is hostile, it must make a Constitution saving throw against your warlock spell save DC. If it fails, it is knocked prone. This curse lasts for 1 minute or until the creature enters an area of magical silence.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Voice of the Maestro",
+		        "entries": [
+		          "At 10th level, your spirit copies the sounds it hears with perfect clarity. You gain resistance to thunder damage. Whenever you cast a spell that makes noise or the illusion of noise, you can cause it to produce any sound you wish.",
+							"Additionally, you can perfectly mimic the speech and other vocalizations of creatures you have heard, but not spellcasting. Creatures must succeed an Insight check against your warlock spell save DC to determine the sound is a mimicry, and they make this check with disadvantage."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "The Grand Finale",
+		        "entries": [
+		          "Starting at 14th level, you can use your action to call upon a single note of the Perfect Chord. Choose one of the following effects. Once you use this feature, you can’t do so again until you finish a long rest.",
+							{"type": "list",
+										"items":[
+												{"type": "entries",
+													"entries": [
+																	{"type": "entries",
+																		"name": "Celebration",
+																			"entries": [" Each friendly creature within 1 mile of you gains advantage on Charisma checks for 8 hours. During this time, these creatures can use their actions to magically conjure an instrument of their choosing, and they gain proficiency with that instrument for the duration. They can also use their action to summon delicious food or beverages sufficient to satisfy their needs for one day. They can only use each action once. Finally, they can cast any cantrips that you know that are from the schools of illusion or enchantment. After 8 hours, all of the conjured objects vanish and all ongoing effects created or enabled by this feature end."]
+																		}
+																]
+														},
+												{"type": "entries",
+																		"entries": [
+																			{"type": "entries",
+																					"name": "Defiance",
+																		"entries": ["You unleash a painful sound. Creatures of your choosing within 120 feet of you can choose to use their reaction to drop what they are holding and cover their ears. If they don’t do so, they take {@dice 8d10} thunder damage and are deafened for one hour. If they do, they take half as much damage and are not deafened."]
+																}
+														]
+												},
+												{"type": "entries",
+																"entries": [
+																	{"type": "entries",
+																			"name": "Discord",
+																"entries": ["Each hostile creature within 60 feet of you that can hear you must make a Charisma saving throw against your warlock spell save DC. If they fail, they are frightened of you and of all creatures friendly to you for one minute. A creature can repeat their saving throw at the end of each of its turns, ending the effect on a success."]
+														}
+												]
+										},
+												{"type": "entries",
+														"entries": [
+															{"type": "entries",
+																	"name": "Exaltation",
+														"entries": ["Each creature within 60 feet of you that can hear you can use their reaction to cheer. You immediately gain temporary hit points equal to ten times the number of creatures that cheer. These temporary hit points last for 10 minutes."]
+												}
+										]
+								},
+												{"type": "entries",
+												"entries": [
+													{"type": "entries",
+															"name": "Unity",
+												"entries": ["Each friendly creature within 60 feet of you that can hear you can use their reaction to immediately move up to 30 feet and make one weapon attack."]
+										}
+								]
+							}]}
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "Discordant",
+			"shortName": "Discordant",
+			"class": "Fighter",
+			"source": "COFSA",
+			"page": 74,
+			"subclassFeatures":[
+				[{"name": "Discordant",
+					"entries": [
+						"In battle, blades clash and ring, shields break and snap, warriors yell and scream, and beneath it all, the sound of violence reigns supreme. One sound, however, stands out above the rest in your memory: the eternal song of the Perfect Chord, a manifestation of light and sound that bore witness to your conflict, collecting the cries of the wounded and the yells of the victors before vanishing once more. Inspired by this melody, you have dedicated your martial focus to the creation of dissonance, adjusting the vibrations of the universe to inflict a discordant cacophony of destructive power upon your adversaries. With weapons singing a tale of triumph and despair, you stand valiant before the chaos of everlasting war.",
+						{"type": "entries",
+							"name": "Ring the Blade",
+							"entries": [
+								"When you choose this archetype at 3rd level, you learn to make your blades sing with destructive energy.",
+								"While you are wielding a melee weapon, you can use a bonus action to make it ring with sonorous power for one minute. If the weapon leaves your hand, it stops ringing. While a weapon is ringing, it inflicts thunder damage instead of the normal type. Whenever a creature other than you starts its turn within 5 feet if you while your weapon is ringing, it takes thunder damage equal to your highest ability score modifier.",
+								"As an action while holding a ringing weapon, you can unleash this energy, generating sharpened edges of pure sound to lash out in all directions around you and causing the weapon to stop ringing. When you do this, each creature other than you within 15 feet of you takes thunder damage equal to the damage dice of the weapon plus your highest ability score modifier.",
+								"You can unleash the energy within a ringing weapon twice, and you regain these uses when you finish a short or long rest.",
+								"Starting at 7th level, unleashing this energy inflicts twice as much damage, and it inflicts three times as much damage at 15th level."
+							]
+						},
+						{"type": "entries",
+							"name": "Hear the Silence",
+							"entries": [
+								"Also at 3rd level, you learn to stop noise around you by disrupting your own heartbeat. As a bonus action, you can cast {@spell silence} centered on yourself. When cast in this way, it requires no verbal, somatic, or material components, lasts until the start of your next turn, and affects a 5-foot-radius sphere centered on you."
+							]
+						},
+						{"type": "options",
+							"name": "Maneuvers",
+							"entries": [
+								"Presented here are maneuvers unique to the Timeless Monumental, allowing them to call on the power of the Citadel’s endless intent. These maneuvers are designed for use with Fighting Maneuvers, a replacement for Fighting Styles published by Vorpal Dice Press. If you are not using this supplement, then ignore this section.",
+								{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "Crashing Symbol",
+											"entries": [
+												"{@i Prerequisite: Discordant archetype}",
+												"When you are hit by an attack, you can use your reaction to unleash a burst of sound. If the attacker is within 10 feet of you and can hear, they suffer disadvantage on their next attack against you before the start of their next turn."
+											]
+										}
+									]
+								},
+								{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "Sonic Blade",
+											"entries": [
+												"{@i Prerequisite: Discordant archetype}",
+												"When you take the {@action Attack} action on your turn and make an attack with your ringing weapon, you can choose to hone the disruptive sound. If this attack hits a creature that is concentrating on a spell, it has disadvantage on the saving throw to maintain concentration."
+											]
+										}
+									]
+								}
+									]
+								}
+							]
+						}],
+				[{"entries": [{"name": "Defy Harmony",
+						"entries": [
+							"At 7th level, you move against the beat of the universe, like nails upon life’s chalkboard. You gain proficiency in the Intimidation skill. When you wield a weapon that is ringing, your attacks with that weapon ignore disadvantage caused by your target being heavily obscured."
+						]
+					}]}],
+				[{"entries": [{"name": "Shatter Syncronicity",
+							"entries": [
+								"At 10th level, you learn to further manipulate sound and silence. Friendly creatures within 15 feet of you gain resistance to thunder damage. When a hostile creature takes thunder damage as a result of starting its turn within 5 feet of you while your weapon is ringing, it becomes disrupted by eldritch vibrations that interfere with spellcasting. If it tries to cast a spell with a verbal component before the start of your next turn, it takes {@dice 2d10} thunder damage immediately after casting the spell. If this would cause it to make a concentration saving throw, it makes this saving throw with disadvantage."
+							]
+						}]}],
+				[{"entries": [{"name": "Strike Unhindered",
+								"entries": [
+									"At 15th level, while your weapon is ringing, you can use a bonus action to take the Dash action. When you do, you automatically break free from any creature grappling you. After you use this bonus action, any creature or object other than you within 5 feet of you at any time during your turn takes thunder damage equal to your highest ability score modifier at the end of your turn"
+								]
+							}]}],
+			  [{"entries": [{"name": "As Perfect Imperfection",
+							"entries": [
+									"At 18th level, your path has taken you to the final measure, as you at last become the metronome of the Chord. Your heartbeat is as unstoppable as it is unpredictable, and your pulse thunders in your ears. Whenever you are below half your maximum hit points, you can unleash the energy within a ringing weapon without expending your use of the feature.",
+									"Whenever you are reduced to 0 hit points, you can choose to be reduced to 1 hit point instead. Once you do so, you can’t do so again until you finish a long rest. "
+											]
+										}]}]
+			]
 		}
 	],
 	"optionalfeature": [
