@@ -1,4 +1,4 @@
-"$schema": "../schema.json",
+{"$schema": "../schema.json",
 	"_meta": {
 	"sources": [{"json": "COFSA",
 			"abbreviation": "CoFS:A",
