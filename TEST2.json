@@ -1,0 +1,126 @@
+{"$schema": "../schema.json",
+	"_meta": {
+	"sources": [{"json": "COFSA",
+			"abbreviation": "CoFS:A",
+			"full": "The Compendium of Forgotten Secrets: Awakening",
+			"authors": [
+				"Genuine Fantasy Press",
+				"William Hudson King "
+			],
+			"convertedBy": [
+				"Joe",
+				"Modnar"
+			],
+			"version": "1.11",
+			"url": "https://www.reddit.com/r/UnearthedArcana/comments/939c4v/genuine_the_compendium_of_forgotten_secrets/",
+			"targetSchema": "1.1.0"
+		}],
+		"dateAdded": 1537874753
+	},
+	"subclass": [
+		{"name": "The Accursed Archive",
+			"shortName": "Accursed Archive",
+			"class": "Warlock",
+			"source": "COFSA",
+			"page": 10,
+			"subclassSpells": [
+				"Detect Evil and Good",
+				"Inflict Wounds",
+				{"name": "Accursed Wish",
+					"source": "COFSA"
+				},
+				{"name": "Dark Secret",
+					"source": "COFSA"
+				},
+				{"name": "Blackened Heart",
+					"source": "COFSA"
+				},
+				{"name": "Blasphemy",
+					"source": "COFSA"
+				},
+				"Evard's Black Tentacles",
+				{"name": "Forbidden Obelisk",
+					"source": "COFSA"
+				},
+				"Dispel Evil and Good",
+				"Legend Lore"
+			],
+			"subclassFeatures": [
+				[{"name": "The Accursed Archive",
+					"entries": [
+						"In every library there is a book that has never been read, a section that has never been seen, and a hallway that leads to nowhere\u2013yet, you have managed to read that tome of unspoken secrets, find that shelf of unholy blasphemies, and step beyond the dead-end corridor into the Accursed Archive, where you have become bound to the nightmareinducing writings within. Demonology, blood magic, and the summoning of things from beyond are among the most mundane of topics here, but draw the eye and call to the hand nonetheless. By some malignant intelligence that selects only the most desperate, the most ambitious, and the most willing to sacrifice, the Accursed Archive collects souls to do its ruinous work: to share the terrible truths that reside upon its endless shelves, and bring chaos and upheaval to the outside world through the disclosure of these forgotten secrets.",
+						{"name": "Expanded Spell List",
+							"entries": [
+								"The Accursed Archive lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{"type": "table",
+									"caption": "Accursed Archive Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell Detect Evil and Good}, {@spell Inflict Wounds}"
+										],
+										[
+											"2nd",
+											"{@spell Accursed Wish|COFSA}, {@spell Dark Secret|COFSA}"
+										],
+										[
+											"3rd",
+											"{@spell Blackened Heart|COFSA}, {@spell Blasphemy|COFSA}"
+										],
+										[
+											"4th",
+											"{@spell Evard's Black Tentacles}, {@spell Forbidden Obelisk|COFSA}"
+										],
+										[
+											"5th",
+											"{@spell Dispel Evil and Good}, {@spell Legend Lore}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Tainted Knowledge",
+							"entries": [
+								"At 1st level, you have feasted your eyes upon the books of the Archive, and your mind has both withered and grown. Choose two of the following: Arcana, History, Nature, or Religion. Your proficiency bonus is doubled for any ability check you make that uses a chosen skill if you are proficient in that skill, and you gain proficiency in any one skill of your choosing.",
+								"You can use an action to enter the Accursed Archive along with up to ten willing companions of your choosing that you can see. Time does not pass outside the  Archive while you are within, and you cannot rest, recover hit points, or maintain concentration while inside. For more information on the Archive, see the \"Inside the Archive\" section. When you choose to depart, you and your companions return instantly to the point from which you entered.",
+								"Once you use this feature, you cannot do so again until you finish a long rest."
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Written in Blood",
+						"entries": [
+							"At 6th level, you've learned to read your servants and adversaries as easily as the scrolls located within the darkest places of the Accursed Archive and can twist them to serve your cruel whims.",
+							"As an action, touch a creature within reach. The target must make a Charisma saving throw with a DC equal to your warlock spell save DC. If they fail, they are paralyzed until the end of your next turn, and their flesh peels back into the pages of a book bound underneath their skin. The words within describe who they are and what they have done, and you can read  up to six different sentences from them, prioritizing details you wish to learn. While the creature is paralyzed, you have advantage on Charisma and Intelligence checks relating to the creature and it has disadvantage on Charisma and Wisdom checks.",
+							"Once you use this feature, you can't do so again until you finish a short or long rest."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Vile Heresies",
+						"entries": [
+							"At 10th level, you uncover secrets that could shatter the balance of the heavens and hells. Choose any spell of 4th level or lower that is not a cantrip. You can cast this spell once using a warlock spell slot.",
+							"Once you do so, you cannot do so again until you finish a long rest.",
+							"Whenever you are within the Archive, you can exchange this spell for a different one, but cannot use it until you finish a long rest. Whenever you cast your chosen spell, you gain immunity to the frightened condition. This immunity lasts until you finish a short or long rest."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Unspeakable Truths",
+						"entries": [
+							"At 14th level, you discover the real purpose of the Accursed Archive\u2013the spread of information that will bring ruin to the world. As an action, you can share an unspeakable truth with all creatures that can hear you within 60 feet of you. All hostile creatures who can hear and understand your words must make a Wisdom saving throw against your warlock spell save DC. If they fail, they are driven mad and suffer confusion as though affected by the confusion spell for one minute. They can repeat this saving throw each time they suffer damage, ending the effect on a success.",
+							"When you do this, choose up to four creatures within 60 feet of you that you can see. These creatures are infused with dark power that distorts the fabric of reality. Choose one spell you can cast of 2nd level or lower that inflicts damage and has a casting time of one action or bonus action. Each infused creature can use their reaction to cast this spell immediately without using verbal, somatic, or material components. Charisma is their spellcasting modifier for this spell.",
+							"Once you use this feature, you cannot do so again until you finish a long rest."
+						]
+					}]
+				}]
+			]
+		}
+	]
+  }
