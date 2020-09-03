@@ -1,0 +1,2134 @@
+"$schema": "../schema.json",
+	"_meta": {
+	"sources": [{"json": "COFSA",
+			"abbreviation": "CoFS:A",
+			"full": "The Compendium of Forgotten Secrets: Awakening",
+			"authors": [
+				"Genuine Fantasy Press",
+				"William Hudson King "
+			],
+			"convertedBy": [
+				"Joe",
+				"Modnar"
+			],
+			"version": "1.11",
+			"url": "https://www.reddit.com/r/UnearthedArcana/comments/939c4v/genuine_the_compendium_of_forgotten_secrets/",
+			"targetSchema": "1.1.0"
+		}],
+		"dateAdded": 1537874753
+	},
+	"subclass": [
+		{"name": "The Accursed Archive",
+			"shortName": "Accursed Archive",
+			"class": "Warlock",
+			"source": "COFSA",
+			"page": 10,
+			"subclassSpells": [
+				"Detect Evil and Good",
+				"Inflict Wounds",
+				{"name": "Accursed Wish",
+					"source": "COFSA"
+				},
+				{"name": "Dark Secret",
+					"source": "COFSA"
+				},
+				{"name": "Blackened Heart",
+					"source": "COFSA"
+				},
+				{"name": "Blasphemy",
+					"source": "COFSA"
+				},
+				"Evard's Black Tentacles",
+				{"name": "Forbidden Obelisk",
+					"source": "COFSA"
+				},
+				"Dispel Evil and Good",
+				"Legend Lore"
+			],
+			"subclassFeatures": [
+				[{"name": "The Accursed Archive",
+					"entries": [
+						"In every library there is a book that has never been read, a section that has never been seen, and a hallway that leads to nowhere\u2013yet, you have managed to read that tome of unspoken secrets, find that shelf of unholy blasphemies, and step beyond the dead-end corridor into the Accursed Archive, where you have become bound to the nightmareinducing writings within. Demonology, blood magic, and the summoning of things from beyond are among the most mundane of topics here, but draw the eye and call to the hand nonetheless. By some malignant intelligence that selects only the most desperate, the most ambitious, and the most willing to sacrifice, the Accursed Archive collects souls to do its ruinous work: to share the terrible truths that reside upon its endless shelves, and bring chaos and upheaval to the outside world through the disclosure of these forgotten secrets.",
+						{"name": "Expanded Spell List",
+							"entries": [
+								"The Accursed Archive lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{"type": "table",
+									"caption": "Accursed Archive Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell Detect Evil and Good}, {@spell Inflict Wounds}"
+										],
+										[
+											"2nd",
+											"{@spell Accursed Wish|COFSA}, {@spell Dark Secret|COFSA}"
+										],
+										[
+											"3rd",
+											"{@spell Blackened Heart|COFSA}, {@spell Blasphemy|COFSA}"
+										],
+										[
+											"4th",
+											"{@spell Evard's Black Tentacles}, {@spell Forbidden Obelisk|COFSA}"
+										],
+										[
+											"5th",
+											"{@spell Dispel Evil and Good}, {@spell Legend Lore}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Tainted Knowledge",
+							"entries": [
+								"At 1st level, you have feasted your eyes upon the books of the Archive, and your mind has both withered and grown. Choose two of the following: Arcana, History, Nature, or Religion. Your proficiency bonus is doubled for any ability check you make that uses a chosen skill if you are proficient in that skill, and you gain proficiency in any one skill of your choosing.",
+								"You can use an action to enter the Accursed Archive along with up to ten willing companions of your choosing that you can see. Time does not pass outside the  Archive while you are within, and you cannot rest, recover hit points, or maintain concentration while inside. For more information on the Archive, see the \"Inside the Archive\" section. When you choose to depart, you and your companions return instantly to the point from which you entered.",
+								"Once you use this feature, you cannot do so again until you finish a long rest."
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Written in Blood",
+						"entries": [
+							"At 6th level, you've learned to read your servants and adversaries as easily as the scrolls located within the darkest places of the Accursed Archive and can twist them to serve your cruel whims.",
+							"As an action, touch a creature within reach. The target must make a Charisma saving throw with a DC equal to your warlock spell save DC. If they fail, they are paralyzed until the end of your next turn, and their flesh peels back into the pages of a book bound underneath their skin. The words within describe who they are and what they have done, and you can read  up to six different sentences from them, prioritizing details you wish to learn. While the creature is paralyzed, you have advantage on Charisma and Intelligence checks relating to the creature and it has disadvantage on Charisma and Wisdom checks.",
+							"Once you use this feature, you can't do so again until you finish a short or long rest."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Vile Heresies",
+						"entries": [
+							"At 10th level, you uncover secrets that could shatter the balance of the heavens and hells. Choose any spell of 4th level or lower that is not a cantrip. You can cast this spell once using a warlock spell slot.",
+							"Once you do so, you cannot do so again until you finish a long rest.",
+							"Whenever you are within the Archive, you can exchange this spell for a different one, but cannot use it until you finish a long rest. Whenever you cast your chosen spell, you gain immunity to the frightened condition. This immunity lasts until you finish a short or long rest."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Unspeakable Truths",
+						"entries": [
+							"At 14th level, you discover the real purpose of the Accursed Archive\u2013the spread of information that will bring ruin to the world. As an action, you can share an unspeakable truth with all creatures that can hear you within 60 feet of you. All hostile creatures who can hear and understand your words must make a Wisdom saving throw against your warlock spell save DC. If they fail, they are driven mad and suffer confusion as though affected by the confusion spell for one minute. They can repeat this saving throw each time they suffer damage, ending the effect on a success.",
+							"When you do this, choose up to four creatures within 60 feet of you that you can see. These creatures are infused with dark power that distorts the fabric of reality. Choose one spell you can cast of 2nd level or lower that inflicts damage and has a casting time of one action or bonus action. Each infused creature can use their reaction to cast this spell immediately without using verbal, somatic, or material components. Charisma is their spellcasting modifier for this spell.",
+							"Once you use this feature, you cannot do so again until you finish a long rest."
+						]
+					}]
+				}]
+			]
+		},
+		{"name": "Path of the Accursed",
+			"shortName": "Accursed",
+			"class": "Barbarian",
+			"source": "COFSA",
+			"page": 13,
+			"subclassFeatures": [
+				[{"name": "Path of the Accursed",
+					"entries": [
+						"There is a place beyond time, filled with malignant intelligence and ruinous intent. This is the Accursed Archive\u2013the singular repository of all knowledge known to mortal men, populated with the darkest of secrets and the foulest of heresies. You managed to find a tome of these blighted mysteries and stepped through the door to nowhere that led to the Archive at some point in your past, yet your mind cracked under the weight of the knowledge contained within and the horrible vistas of forgotten power that stood just within your feeble mortal grasp. Now you have finally realized that the true source of your furious rage is both defiance and acceptance of the madness that lies within the Accursed Archive.",
+						{"name": "The Lurking Fear",
+							"entries": [
+								"At 3rd level, you have yet to come to terms with what you have witnessed within the Archive, and in your bouts of rage you ramble about these twisted things even as your tongue fights to stop. You gain resistance to all damage inflicted by frightened creatures while you are raging.",
+								"Whenever you are raging, each creature that starts its turn within 10 feet of you must succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be {@condition frightened} of you until the end of your next turn. Once a creature fails this saving throw, it can't be frightened by this feature again for one minute.",
+								"Additionally, you can use your Charisma modifier in place of your Intelligence modifier when making skill checks and saving throws."
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "From Beyond",
+						"entries": [
+							"Starting at 6th level, your words seem to cut at the minds of those who listen even more horribly than before. You can cast {@spell dark secret|COFSA} once, and you recover this use whenever you enter a rage. Charisma is your spellcasting ability for this spell."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "The Thing on the Doorstep",
+						"entries": [
+							"At 10th level, your hallucinations slowly enter reality, as the dark tendrils of the Silent One move at the corners of your vision. Whenever you enter a rage, you can choose to unleash the horrors that dwell within your mind upon the world. Choose a number of creatures within 30 feet of you equal to or less than your Charisma modifier. Each one is pulled to an open space within 5 feet of you, or the nearest available space, by massive tendrils that spawn from the air around you. Until the end of your turn, when the tendrils disappear, you cannot suffer disadvantage from any source on any check made to grapple one of these creatures."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "What the Moon Brings",
+						"entries": [
+							"At 14th level, you finally accept the things you learned within the Archive and realize that the ruinous secrets it unleashes upon the world are merely the statements of a truth that mankind has long dreaded to learn. The Silent Ones are not villains, but are guardians, destined to safeguard the universe from those who would exploit the foul heresies of the Accursed Archive, and so you begin your preparations to join their ranks. ",
+							"Whenever you reduce a creature to 0 hit points, you can choose to allow a Silent One to lash out from within your skin, ensnaring another unwary soul and twisting their flesh from its good purpose. Choose a creature within 30 feet of you. The target must make a Strength (Athletics) or Dexterity (Acrobatics) check contested by your own Strength (Athletics) check. If the target fails, the tendril snares them and drags them into the closest open space near you, and the creature gains one level of exhaustion. A creature cannot be affected by this feature more than once per turn."
+						]
+					}]
+				}]
+			]
+		},
+		{"name": "The Ashen Wolf",
+			"shortName": "Ashen Wolf",
+			"class": "Warlock",
+			"source": "COFSA",
+			"page": 17,
+			"subclassSpells": [
+				{"name": "Hunter's Pace",
+					"source": "COFSA"
+				},
+				"Inflict Wounds",
+				"Flame Blade",
+				"Pass without Trace",
+				{"name": "Funeral Pyre",
+					"source": "COFSA"
+				},
+				"Haste",
+				{"name": "Ashen Pack",
+					"source": "COFSA"
+				},
+				"Wall of Fire",
+				"Cloudkill",
+				{"name": "Hungering Hate",
+					"source": "COFSA"
+				}
+			],
+			"subclassFeatures": [
+				[{"name": "The Ashen Wolf",
+					"entries": [
+						"You've made a pact with a primal spirit of fire and the hunt\u2013a scourge of the forests and fields, and a harbinger of ill fate. This creature is wise and cunning, making deals with those who have the potential to bring ruin and change. Some consider the beast to be native to the Plane of Elemental Fire; others call it a fiend from the darkest hells. Whatever its origin, the ember-eyed wolf often extracts payment in the form of wishes gone awry: a demand for power becomes a battle to retain one's humanity, while a request for a peaceful resolution often has a price that brings constant regret.",
+						{"name": "Expanded Spell List",
+							"entries": [
+								"The Ashen Wolf lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{"type": "table",
+									"caption": "Ashen Wolf Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell Hunter's Pace|COFSA}, {@spell Inflict Wounds}"
+										],
+										[
+											"2nd",
+											"{@spell Flame Blade}, {@spell Pass without Trace}"
+										],
+										[
+											"3rd",
+											"{@spell Funeral Pyre|COFSA}, {@spell Haste}"
+										],
+										[
+											"4th",
+											"{@spell Ashen Pack|COFSA}, {@spell Wall of Fire}"
+										],
+										[
+											"5th",
+											"{@spell Cloudkill}, {@spell Hungering Hate|COFSA}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Breath of Smoke",
+							"entries": [
+								"Starting at 1st level, you can use your action to exhale blistering embers in a 15-foot cone. Each creature in that area must make a Constitution saving throw against your warlock spell save DC. Creature that fail take fire damage equal to your warlock level + your Charisma modifier and are {@condition blinded} until the end of their next turn.",
+								"If you activate this feature again before finishing a short or long rest, you gain one level of exhaustion.",
+								"Additionally, you can breathe and see normally in smoke or ash-filled air. "
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Feast for the Fire",
+						"entries": [
+							"Beginning at 6th level, you have gained the ability to mark a target for sacrifice to the Ashen Wolf. As a bonus action, choose one creature you can see within 60 feet of you. For one minute, the target is cursed by the Ashen Wolf. The curse ends early if the target dies. Until the curse ends, the target loses any resistance to fire damage, and opportunity attacks against the target are made with advantage.",
+							"Once you use this feature, you can't do so again until you finish a short or long rest.",
+							"At 10th level, the curse grows in strength as your connection with your patron deepens. The target also loses any immunity to fire damage."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Endless Pursuit",
+						"entries": [
+							"At 10th level, your patron grants you a portion of its primal stamina. You gain resistance to fire damage.",
+							"Whenever you finish a short rest, you can choose to reduce your level of exhaustion by one.",
+							"You can do this once, and this use recovers whenever you finish a long rest."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Beast of the Burning End",
+						"entries": [
+							"At 14th level, you unlock the power to incarnate in the form of your patron. As an action, you wrap yourself in the guise of a massive flaming lupine creature. For 1 minute, or until you exit this incarnation as a bonus action, you gain the following benefits.",
+							{"type": "list",
+								"items": [
+									"Your size becomes Medium or Large (your choice).",
+									"You ignore all levels of exhaustion. • Your speed increases by 20 feet.",
+									"You have advantage on melee attack rolls against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.",
+									"You are immune to fire damage."
+								]
+							},
+							" When you use this feature, two hell hounds burst forth from your burning flesh into spaces within 5 feet of you. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them or are incapacitated, they defend themselves and you from hostile creatures, but otherwise take no actions. They act on your initiative count, have twice as many hit points as a normal hell hound, and are considered elementals instead of their normal type.",
+							"When you exit this incarnation, the hell hounds instantly turn to ash. Your body immediately attempts to reabsorb the ash as it swirls back to you from up to 300 feet away. If a hell hound has died or the ash cannot return to you due to distance, you gain one level of exhaustion per missing hound.",
+							"Once you use this feature, you can't do so again until you finish a long rest. "
+						]
+					}]
+				}]
+			]
+		},
+		{"name": "Ashen Lineage",
+			"shortName": "Ashen",
+			"class": "Sorcerer",
+			"source": "COFSA",
+			"page": 19,
+			"subclassSpells": [
+				"Burning Hands",
+				"Heat Metal",
+				"Fireball",
+				"Locate Creature",
+				"Commune with Nature",
+				"circle of Death"
+			],
+			"subclassFeatures": [
+				[{"name": "Ashen Lineage",
+					"entries": [
+						"Somewhere in your bloodline, one of your ancestors made a pact with a powerful spirit of flame and predation known as the Ashen Wolf. This elemental creature is neither fiend nor fey, but something primal and otherworldly. It is honored with ritualistic immolation and sacrifices of meat and metal. While the Wolf may have no hold over you, it may be interested in your affairs nevertheless, and your very existence could draw the ire of the Wolf's eternal foe: the frost-bound Wild Huntsman. With smoke and cinders pouring from your hands with each spell you cast and a layer of ash gradually creeping over your body, you are the incarnation of a smoldering ember thrown upon a dry forest.",
+						"Let your power burn forth like wildfire.",
+						{"name": "Origin Spells",
+							"entries": [
+								"When you choose this sorcerous origin, you gain access to the following spells, which do not count against your spells known but can only be cast once you reach the required sorcerer level.",
+								{"type": "table",
+									"caption": "Ashen Lineage Origin Spells",
+									"colLabels": [
+										"Sorcerer Level",
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"1st",
+											"{@spell Burning Hands}"
+										],
+										[
+											"3rd",
+											"2nd",
+											"{@spell Heat Metal}"
+										],
+										[
+											"5th",
+											"3rd",
+											"{@spell Fireball}"
+										],
+										[
+											"7th",
+											"4th",
+											"{@spell Locate Creature}"
+										],
+										[
+											"9th",
+											"5th",
+											"{@spell Commune with Nature}"
+										],
+										[
+											"11th",
+											"6th",
+											"{@spell Circle of Death}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Born of Ember",
+							"entries": [
+								"At 1st level, a thin layer of ash and charred wood begins to coat your skin as you fight, engulfing you, yet allowing you to blaze back to life with a vengeance. Whenever you are below your hit point maximum, charred claws and fangs erupt from your hands and mouth. While you have these claws, you can use your bonus action to make a melee spell attack that deals fire damage equal to 1d8 + your Charisma modifier. At 11th level, the damage increases to 2d8 + your Charisma modifier.",
+								"The first time after a long rest when you are below half your hit point maximum, the ash that coats your body infuses your soul, granting you gain resistance to fire damage. This lasts until you finish a long rest. At 14th level, you gain immunity instead of resistance.",
+								"Additionally, you can speak, read, and write Primordial, the language of elementals, and you learn the {@spell produce flame} cantrip."
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Burning Fury",
+						"entries": [
+							"Starting at 6th level, the fire within you begins to call directly to the Ashen Wolf, and it grants you strength, either in honor of your ancestor or in a twisted form of revenge. When you reduce a creature to 0 hit points with an attack granted by your Born of Ember class feature, the burning fury empowering your attack surges through the creature, turning its vital organs to ash and granting you temporary hit points equal to twice your Charisma modifier.",
+							"Additionally, you can spend 1 sorcery point during your turn when you are below half your hit point maximum to cause the ash upon your skin to harden. Until the start of your next turn, your AC is 17. This has no effect if your AC is equal to or greater than 17."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Cinderwraith",
+						"entries": [
+							"At 14th level, your spark has grown to a flame, burning black with dark power. Any time you would inflict fire damage, you can choose to inflict necrotic damage instead, and vice versa.",
+							"Additionally, your ashen form allows you to move with unnatural ease, disintegrating and reforming with each step you take. You ignore difficult terrain, and you can move through any space at least 6 inches wide without squeezing. "
+						]
+					}]
+				}],
+				[{"entries": [{"name": "The Wolf's Bargain",
+						"entries": [
+							"At 18th level, your strength has grown to surpass that of your ancestor, and your power over the ancient and primal magics of flame and ash is without peer.",
+							"As an action, you can spend 5 sorcery points to launch yourself skyward in a pillar of fire and smoke before crashing down at a location that you can see within 60 feet of your point of origin, unleashing a hellish blast of fire and cursed power at a creature within 5 feet of you. The target must make a Wisdom saving throw against your sorcerer spell save DC. The target takes {@dice 6d10} fire damage on a failed save, or half as much damage on a successful one.",
+							"If the target is slain by this attack, it is consumed instantly by flame, and the ashes coalesce into a {@creature hell hound|MM}. Hell hounds summoned by this feature are elementals instead of fiends. The hell hound obeys your orders without question and acts during your turn. You can't have more than two hell hounds at a time from this feature. Creation of a third hell hound destroys the oldest one still alive. Each hell hound remains in your service until slain or until the third dawn after it was summoned, at which point it disintegrates into ash.",
+							"Once you use this feature, you can't do so again until you finish a long rest."
+						]
+					}]
+				}]
+			]
+		},
+		{"name": "The Blackthorn Grove",
+			"shortName": "Blackthorn Grove",
+			"class": "Warlock",
+			"source": "COFSA",
+			"page": 23,
+			"subclassSpells": [
+				"Entangle",
+				{"name": "Hunter's Pace",
+					"source": "COFSA"
+				},
+				{"name": "Heartripper",
+					"source": "COFSA"
+				},
+				{"name": "Replenish",
+					"source": "COFSA"
+				},
+				"Plant Growth",
+				{"name": "Skewering Vines",
+					"source": "COFSA"
+				},
+				{"name": "Bloodthorn",
+					"source": "COFSA"
+				},
+				{"name": "Cage of Briars",
+					"source": "COFSA"
+				},
+				{"name": "Overwhelming Emotion",
+					"source": "COFSA"
+				},
+				"Tree Stride"
+			],
+			"subclassFeatures": [
+				[{"name": "The Blackthorn Grove",
+					"entries": [
+						"You’ve torn out your heart as an offering to the Blackthorn Grove after braving the Maze of Blood and resisting the temptations of the Fields of Acedia. In place of your heart, a pulsing, beating, writhing mass of thorns has grown and made you whole. The lifeblood of the world itself runs through your veins, granting you power and passion alike to fulfill your purpose, whatever that may be. The trials and suffering of your past beckon you to make amends or take your revenge, but the feeling of grass under your feet and the sunlight upon your face is enough to help you understand the worth of life. Wander alone no longer, for even in death the Grove shall grant you a home.",
+						{"name": "Expanded Spell List",
+							"entries": [
+								"The Blackthorn Grove lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{"type": "table",
+									"caption": "Blackthorn Grove Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell Entangle}, {@spell Hunter's Pace|COFSA}"
+										],
+										[
+											"2nd",
+											"{@spell Heartripper|COFSA}, {@spell Replenish|COFSA}"
+										],
+										[
+											"3rd",
+											"{@spell Plant Growth}, {@spell Skewering Vines|COFSA}"
+										],
+										[
+											"4th",
+											"{@spell Bloodthorn|COFSA}, {@spell Cage of Briars|COFSA}"
+										],
+										[
+											"5th",
+											"{@spell Overwhelming Emotion|COFSA}, {@spell Tree Stride}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Blackthorn Heart",
+							"entries": [
+								"At 1st level, you have torn out your heart and replaced it with something otherworldly, granting you the will to survive. You ignore nonmagical difficult terrain. Whenever you fail a death saving throw, your Blackthorn heart bursts from your chest and lashes out with life-stealing briars toward the nearest hostile creature. Make a melee spell attack against an enemy within 15 feet of you. On a hit, the creature takes magical piercing damage equal to your warlock level, and you regain hit points equal to the damage dealt.",
+								"After you recover hit points using this feature, you cannot make this attack again until you finish a short or long rest."
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Apathy is Death",
+						"entries": [
+							"At 6th level, you can use your reaction to surge with purpose and haste whenever you make an Intelligence, Wisdom, or Charisma saving throw. You gain advantage on the saving throw, can move up to half your speed, and can make a single weapon attack before the result of the roll is revealed.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest. "
+						]
+					}]}],
+				[{"entries": [{"name": "Arboreal Guardian",
+						"entries": [
+							"At 10th level, your purpose is not merely to exist, but to safeguard life. Whenever a creature within 5 feet of you would take damage, you can choose to redirect half of the damage to you by shielding them with vines from your Blackthorn heart. Only the original target suffers any additional effects of the damage. If this damage reduces you to 0 hit points, you gain advantage on the first attack made by your Blackthorn Heart feature."
+						]
+					}]}],
+				[{"entries": [{"name": "Seeds of Destrucion",
+						"entries": [
+							"At 14th level, you realize the reason you have been blessed with this power and purpose: to spread the Blackthorn Grove. As an action, or whenever you are reduced to 0 hit points and you fail to recover hit points using your Blackthorn Heart feature, you can choose to have the beginnings of a new Maze of Blood appear around you. The area within a 30-foot radius of you becomes difficult terrain as blood-hungry vines emerge from the assembled briars to drink their fill. A creature within the radius at the start of its turn must make a Constitution saving throw against your warlock spell save DC. A target takes {@dice 4d6} magical slashing damage on a failed save, or half as much damage on a successful one. Allies make this saving throw with advantage. If summoned as an action, it lasts until the start of your next turn. If summoned when you are at 0 hit points, it lasts until you recover 1 hit point, or becomes permanent if you die.",
+							"The Maze can be summoned once as an action, and this use recovers whenever you finish a long rest. The Maze can also be summoned once when you are at 0 hit points, and this use recovers whenever you finish a long rest."
+						]
+					}]
+				}]
+			]
+		},
+		{"name": "Blackthorn Lineage",
+			"shortName": "Blackthorn",
+			"class": "Sorcerer",
+			"source": "COFSA",
+			"page": 14,
+			"subclassSpells": [
+				"Entangle",
+				{"name": "Replenish",
+					"source": "COFSA"},
+				"Plant Growth",
+				"Hallucinatory Terrain",
+				"Commune with Nature",
+				"Transport via Plants"
+			],
+			"subclassFeatures": [
+				[{"name": "Blackthorn Lineage",
+					"entries": [
+						"Somewhere in your lineage, an ancestor entered and made a pact with the Blackthorn Grove, replacing their heart with one crafted from the essence of the Grove itself. Working with plants has always come naturally to you, but one day your magical power awakened. In defense of your life or in pursuit of your heart’s deepest desires, the strange arcana of the Blackthorn Grove sprouted within your veins, giving you power to use as you see fit. ",
+						{"name": "Origin Spells",
+							"entries": [
+								"When you choose this sorcerous origin, you gain access to the following spells, which do not count against your spells known but can only be cast once you reach the required sorcerer level.",
+								{"type": "table",
+									"caption": "Blackthorn Lineage Origin Spells",
+									"colLabels": [
+										"Sorcerer Level",
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"1st",
+											"{@spell Entangle}"
+										],
+										[
+											"3rd",
+											"2nd",
+											"{@spell Replenish|COFSA}"
+										],
+										[
+											"5th",
+											"3rd",
+											"{@spell Plant Growth}"
+										],
+										[
+											"7th",
+											"4th",
+											"{@spell Hallucinatory Terrain}"
+										],
+										[
+											"9th",
+											"5th",
+											"{@spell Commune with Nature}"
+										],
+										[
+											"11th",
+											"6th",
+											"{@spell Transport via Plants}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Blood of the Dark Forest",
+							"entries": [
+								"When you select this origin at 1st level, your spirit aligns to the power of the Grove, calling to the cycles of regrowth. You learn the {@spell Druidcraft} cantrip. When your Spellcasting feature lets you learn or replace a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose the new spell from the druid spell list or the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you. "
+							]
+						},
+						{"name": "Sleeper in the Field",
+								"entries": [
+									"Also at 1st level, whenever you cast a spell using a spell slot of 1st level or higher, you can choose a creature that you can see within 30 feet of you. Roll {@dice 1d10} for each level of the spell slot you expended. If the total is equal to or greater than the creature’s remaining hit point total, it falls asleep as though affected by the {@spell Sleep} spell."
+								]
+							}
+					]
+				}],
+				[{"entries": [{"name": "Glade Reaper",
+						"entries": [
+							"At 6th level, your connection to the Grove imbues you with a thirst for blood and the power to claim it. When you cast a spell on the druid spell list that deals damage by expending a spell slot, you can spend sorcery points equal to half the spell’s level to gain temporary hit points equal to half the damage dealt to one creature damaged by the spell. "
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Watcher in the Maze",
+						"entries": [
+							"At 14th level, you attune yourself to the Maze of Blood. You ignore difficult terrain. You can ignore magical and nonmagical effects that would cause plants to hinder or damage you, such as from the effect of the {@spell Entangle} spell. Whenever you use your Sleeper in the Field feature and the target’s hit points are greater than the number rolled, you can use your bonus action to deal magical piercing damage equal to half the number rolled to the target. "
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Heart of the Wilderness",
+						"entries": [
+							"At 18th level, while you maintain concentration on a spell, you can have blackthorn vines swarm around you in a 30-foot radius, acting as difficult terrain for hostile creatures."
+						]
+					}]
+				}]
+			]
+		},
+		{"name": "The Currency Conspiracy",
+			"shortName": "Currency Conspiracy",
+			"class": "Warlock",
+			"source": "COFSA",
+			"page": 30,
+			"subclassSpells": [
+					"Command",
+					"Identify",
+					"Arcane Lock",
+					"Knock",
+					"Clairvoyance",
+					"Glyph of Warding",
+					{"name": "Skin of Flint",
+					"source": "COFSA"},
+					{"name": "Unspoken Agreement",
+						"source": "COFSA"},
+					"Dominate Person",
+					"Teleportation Circle"
+			],
+			"subclassFeatures": [
+				[{"name": "The Currency Conspiracy",
+					"entries": [
+						"Hushed whispers fill your mind, informing you that your memories are your own. You don’t quite understand what that means, but it seems that the Cabal may have a grand plan that requires your action and needs you to be aware of the reality behind your deeds. Perhaps you were knowledgeable and unscrupulous, willing to bargain away the life of another, or perhaps more powerful entities, intervened on your behalf and restored your memory. Nevertheless, now you know the truth behind the Currency Conspiracy. Along with this knowledge comes the ability to manifest the unusual power of Gilt and to wield a measure of control over the karensee. Will you use it to further the dark goals of the Conspiracy, or will you bite the hand that feeds and turn against the dark masterminds of the Cabal?",
+						"The choice is yours, but the price must be paid in blood. ",
+						{"name": "Expanded Spell List",
+							"entries": [
+								"The Currency Conspiracy lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{"type": "table",
+									"caption": "Currency Conspiracy Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell Command}, {@spell Identify}"
+										],
+										[
+											"2nd",
+											"{@spell Arcane Lock}, {@spell Knock}"
+										],
+										[
+											"3rd",
+											"{@spell Clairvoyance}, {@spell Glyph of Warding}"
+										],
+										[
+											"4th",
+											"{@spell Skin of Flint|COFSA}, {@spell Unspoken Agreement|COFSA}"
+										],
+										[
+											"5th",
+											"{@spell Dominate Person}, {@spell Teleportation Circle}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Weight of Gilt",
+							"entries": [
+								"When you choose this patron at 1st level, you gain a single coin that acts as a manifestation of your soul, known as a Gilded Coin. You can summon the coin to your hand or dismiss this coin as a bonus action regardless of its location. Other creatures see this coin as 1 gp or other appropriate currency of equivalent value. You are always aware of who is in possession of your Gilded Coin.",
+								"As an action, you can choose to convert all currency you have in your possession into an equivalent value in any other denomination or currency. For example, you can convert gold coins into an equivalent value of silver or copper pieces, or change them into other currencies you’ve seen before. Additionally, you can choose to conceal currency you possess in a pocket dimension, which you can access using a bonus action. If you die, the currency reappears on your corpse.",
+								"Also, whenever you reduce a Small or larger creature to 0 hit points using a cantrip or a spell cast using a warlock spell slot or when a creature swears a binding oath of loyalty to you, you can choose to capture a fraction of their soul, granting you an amount of Gilt equal to the creature’s hit point maximum. Once you’ve acquired Gilt from a creature, you can’t acquire more from that creature until their Gilt has been spent in full. Whenever you cast a spell using a warlock spell slot that has a material component worth more than 1 gp, you can choose to pay an equal amount of Gilt in place of the material components. The material components appear and exist for the duration of the spell if not consumed by the spell."
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Gilded Shadow",
+						"entries": [
+							"At 6th level, you can choose to spend an amount of Gilt equal to your warlock level as a bonus action to conceal your movements for 1 hour. When you take the Hide action, you become invisible and inaudible to creatures until the start of your next turn so long as they are more than 10 feet away from you. This can allow you to Hide even when you lack cover or concealment.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest. "
+						]
+					}]}],
+				[{"entries": [{"name": "Grand Design",
+						"entries": [
+							"At 10th level, your connection to wealth allows you to manipulate events in your favor in subtle yet surprising ways. Whenever a creature is touching your Gilded Coin, you gain a measure of control over them. As a bonus action while you can see this creature, you can manipulate them in a subtle way that can’t be detected. The target must make a Wisdom saving throw against your warlock spell save DC. If they fail, the target uses its reaction to move up to its speed then takes the Use an Object action, performing an activity of your choice. The action can’t cause direct harm to them or anyone that they are aware of, but can have unforeseen consequences. Once you target a creature with this feature, you can’t target them again for the next 24 hours."
+						]
+					}]}],
+				[{"entries": [{"name": "Conspirator's Veil",
+						"entries": [
+							"At 14th level, your connection to the Conspiracy enables you to erase the memories of others at a whim. As an action, choose any number of creatures that you can see within 60 feet of you, and expend an amount of Gilt less than or equal to three times your warlock level. Each target must succeed on a Wisdom saving throw against your warlock spell save DC or have their memories erased, forgetting about actions you’ve taken and events that directly involved you for the previous number of minutes equal to the amount of Gilt spent.",
+							"Once you use this feature, you can’t do so again until you finish a long rest. "
+						]
+					}]
+				}]
+			]
+		},
+		{"name": "Oath of Avarice",
+			"shortName": "Avarice",
+			"class": "Paladin",
+			"source": "COFSA",
+			"page": 32,
+			"subclassSpells": [
+				"Alarm",
+				"Charm Person",
+				"Knock",
+				{"name": "Sinister Threat",
+				"source": "COFSA"},
+				{"name": "Blackened Heart",
+				"source": "COFSA"},
+				{"name": "Detect Interference",
+				"source": "COFSA"},
+				{"name": "Invitation",
+				"source": "COFSA"},
+				{"name": "Unspoken Agreement",
+				"source": "COFSA"},
+				{"name": "Nemesis",
+				"source": "COFSA"},
+				{"name": "Overwhelming Emotion",
+				"source": "COFSA"}
+			],
+			"subclassFeatures": [
+				[{"name": "Oath of Avarice",
+					"entries": [
+						"Wealth is the availability of goods and services, and thus is a representation of both power and opportunity. A wealthy benefactor can save a civilization, while a wealthy tyrant can turn the world on its head. You’ve sworn to let nothing stand between you and the accumulation of wealth, as any whim that takes you can be accomplished with the prudent use of overwhelming financial might. You may have attracted the attention of the Currency Conspiracy, for if your greed blinds you to the truth of their work, then they will gladly take you into their ranks.",
+						{"name": "Tenets of Avarice",
+							"entries": [
+								"The tenets of the Oath of Avarice are often sworn only to oneself, born of greed, desire, and greater goals.",
+
+								{"name": "Take and Keep",
+											"entries": [
+												"The more you have, the more you can do. Take what you need and give nothing back without greater gain."
+											]
+										},
+								{"name": "Spend and Deliver",
+											"entries": [
+												"Everything has a price. Seek wealth so that you can pay it in coin, rather than your own blood."
+								]
+								},
+								{"name": "Blood and Soul",
+											"entries": [
+												"There are currencies intangible that must be obtained or protected, for wealth is worthless otherwise."
+									]
+								},
+								{"name": "Wealth and Unity",
+											"entries": [
+												"All the money in the world does nothing if you cannot spend it. Join with others and invest in their efforts, so that you may reap the rewards."
+									]
+								}
+							]
+						},
+						{"name": "Origin Spells",
+							"entries": [
+								"When you choose this sorcerous origin, you gain access to the following spells, which do not count against your spells known but can only be cast once you reach the required sorcerer level.",
+								{"type": "table",
+									"caption": "Oath of Avarice Spells",
+									"colLabels": [
+										"Paladin Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"3rd",
+											"{@spell Alarm}, {@spell Charm Person}"
+										],
+										[
+											"5th",
+											"{@spell Knock}, {@spell Sinister Threat|COFSA}"
+										],
+										[
+											"9th",
+											"{@spell Blackened Heart|COFSA}, {@spell Detect Interference|COFSA}"
+										],
+										[
+											"13th",
+											"{@spell Invitation|COFSA}, {@spell Unspoken Agreement|COFSA}"
+										],
+										[
+											"17th",
+											"{@spell Nemesis|COFSA}, {@spell Overwhelming Emotion|COFSA}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Channel Divinity: Golden Suit",
+							"entries": [
+								"As an action, you can use your Channel Divinity to coat yourself in shining gold for 1 hour. You gain temporary hit points equal to twice your paladin level for the duration. Whenever a creature hits you with a melee attack while you have these hit points, gold sprays off your armor, causing the creature to suffer disadvantage on their next attack before the start of their next turn."
+							]
+						},
+						{"name": "Channel Divinity: Hired Help",
+							"entries": [
+								"As an action, you can use your Channel Divinity to summon a simple magical construct for one hour. This construct has the statistics of a commoner, though it is a construct instead of its normal type. It cannot attack, cast spells, or activate magic items. If it dies or the duration expires, it fades into mist."
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Aura of Investment",
+						"entries": [
+							"Starting at 7th level, you are surrounded by a 10-foot aura of mutual benefit. Whenever you or a friendly creature gain temporary hit points while within the aura, all other friendly creatures within the aura (including you) gain an equal amount of temporary hit points that last for the same duration. This effect cannot cause a creature to gain more than twice your Charisma modifier in temporary hit points at once. At 18th level, the range of this aura increases to 30 feet."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Rate of Exchange",
+						"entries": [
+							"Starting at 15th level, once per turn when you hit a creature with an unarmed strike, you can attempt to steal an object or weapon from the target. The target must succeed on a Strength saving throw against your paladin spell save DC or lose the chosen item. If you lack a free hand to steal the item, the attempt automatically fails."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Hidden Agenda",
+						"entries": [
+							"At 20th level, you reveal your true desires to the world and call upon the debts that you are owed. You are empowered as the life force of dozens of debtors is drawn into you. For 1 minute, you gain the following benefits.",
+							{"type": "list",
+										"items":[
+							"You gain 20 temporary hit points at the start of each of your turns that last for the duration of this feature.",
+							"Whenever you steal a weapon using your Rate of Exchange feature, you can immediately make a weapon attack using it. This does not require an action.",
+							"When you hit a creature with a melee weapon attack, you can choose to unleash a blast of golden light. The target must make a Wisdom saving throw against your paladin spell save DC. If they fail, they are blinded until the end of your next turn."]},
+							"Once you use this feature, you can’t do so again until you finish a long rest."
+						]
+					}]
+				}]
+			]
+		},
+		{"name": "The Eternal Citadel",
+			"shortName": "Eternal Citadel",
+			"class": "Warlock",
+			"source": "COFSA",
+			"page": 36,
+			"subclassSpells": [
+				{"name": "Defy Ruin",
+				"source": "COFSA"},
+				"Sanctuary",
+				"Arcane Lock",
+				"Warding Bond",
+				"Glyph of Warding",
+				"Tiny Hut",
+				"Resilient Sphere",
+				"Stoneskin",
+				"Passwall",
+				"Wall of Stone"
+			],
+			"subclassFeatures":[
+				[{"name": "The Eternal Citadel",
+					"entries": [
+						"You’ve made a pact with the Eternal Citadel, a massive yet empty bastion that seems to wander between worlds, collecting travelers and releasing them once they agree to serve. The Eternal Citadel communicates through the silent transfer of emotions and feelings – an instinctual sense to follow a course of action, no matter how enigmatic it may seem. An unknown number of people have sworn their allegiance to the Citadel, and few ever meet, but they all serve the same end, known or otherwise: preservation against the forces that seek destruction.",
+						{"name": "Expanded Spell List",
+							"entries": [
+								"The Eternal Citadel lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{"type": "table",
+									"caption": "Eternal Citadel Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell Defy Ruin|COFSA}, {@spell Sanctuary}"
+										],
+										[
+											"2nd",
+											"{@spell Arcane Lock}, {@spell Warding Bond}"
+										],
+										[
+											"3rd",
+											"{@spell Glyph of Warding}, {@spell Tiny Hut}"
+										],
+										[
+											"4th",
+											"{@spell Resilient Sphere}, {@spell Stoneskin}"
+										],
+										[
+											"5th",
+											"{@spell Passwall}, {@spell Wall of Stone}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Righteous Guardian",
+							"entries": [
+								"At 1st level, you gain the ability to shield yourself and others from harm. Whenever you or an ally within 30 feet takes damage, you can use your reaction to create a mystical barrier of energy. The amount of damage taken is reduced by half your warlock level + your Charisma modifier (minimum 1) after applying resistances or vulnerabilities.",
+								"You can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Force of Preservation",
+						"entries": [
+							"At 6th level, you gain the ability to fortify yourself further. Whenever you take damage, you can use your reaction to become immune to the damage from that effect or attack, and you gain temporary hit points equal to half your warlock level.",
+							"Once you use this feature, you can’t use it again until you finish a short or long rest."
+						]
+					}]}],
+				[{"entries": [{"name": "Builder of Walls",
+							"entries": [
+								"At 10th level, your connection with the Eternal Citadel deepens, enabling you to call upon it for defense. You learn two spells with the word “wall” in their name that are of 5th level or lower, they count as warlock spells for you, and they do not count against your total spells known. You can’t choose {@spell Wall of Force} as one of these spells.",
+								"You can cast one of these two spells once without expending a spell slot. Once you do so, you can’t do so again until you finish a long rest."
+							]
+						}]}],
+				[{"entries": [{"name": "Bound to the Aeons",
+								"entries": [
+									"At 14th level, your oath to the Eternal Citadel becomes irrevocable. You no longer age and cannot be magically aged. You also do not require food or water.",
+									"Additionally, you can call down an onslaught of timeless power from the central spire of the Citadel to burn away the souls of your foes. During your turn, you can use an action to choose a location that you can see within 200 feet of you. An infinitely tall 10-foot-radius cylinder expands in that space, illuminating it with bright otherworldly light. At the start of your next turn, a beam of golden energy shoots down from the sky, and creatures within the area must make a Charisma saving throw against your warlock spell save DC. If they fail, they take {@dice 7d6} radiant damage, {@dice 7d6} force damage, and are {@condition blinded} until the start of your next turn. If they succeed, they take half as much damage and are not blinded. This beam passes through obstacles without damaging them.",
+									"Once you use this feature, you can’t do so again until you finish a long rest."
+								]
+							}]}]
+			]
+		},
+		{"name": "Timeless Monumental",
+			"shortName": "Timeless Monumental",
+			"class": "Fighter",
+			"source": "COFSA",
+			"page": 37,
+			"subclassFeatures":[
+				[{"name": "The Eternal Citadel",
+					"entries": [
+						"Wandering between worlds, a massive fortress known as the Eternal Citadel collects forlorn travelers, hermits, and sole survivors to work in its service. Trapping these lost souls within its walls until they agree to follow the strange instincts brought on by the emotions and feelings the Citadel silently sends, this mysterious bastion works to preserve and protect all things, destroying only that which would bring ruin and desolation to the world. You are one of the few who have wandered inside at some point in your life, seeking shelter or knowledge, and now the influence of this place becomes clearly felt, granting you power and longevity to fight the forces of destruction for all eternity.",
+						{"type": "entries",
+							"name": "Statuesque",
+							"entries": [
+								"At 3rd level, your body begins to gradually become more refined, made perfect and whole in preparation for your work. Any physical deformities that you may have are fixed and your body is made whole again. Lost limbs reform, blemishes vanish, and your visage becomes timeless and clean. You gain advantage on Charisma (Persuasion) and Charisma (Performance) checks. If you take no damage for seven consecutive days, this process of purification and renewal occurs again at sunset. "
+							]
+						},
+						{"type": "entries",
+							"name": "Gaze of Eternity",
+							"entries": [
+								"Also at 3rd level, your defensive prowess allows you to halt the progress of your foes. Hostile creatures cannot move through your space. If a hostile creature is within 10 feet of you, the weight of countless ages bears down upon them. If they attempt to move to another space that is further than 10 feet from you, they must first make a Wisdom saving throw with a DC equal to 8 + your proficiency bonus + your Charisma modifier. If they fail, they lose the ability to move farther away from you for the remainder of their turn unless they inflict damage upon you after failing their saving throw. "
+							]
+						},
+						{"type": "options",
+							"name": "Maneuvers",
+							"entries": [
+								"Presented here are maneuvers unique to the Timeless Monumental, allowing them to call on the power of the Citadel’s endless intent. These maneuvers are designed for use with Fighting Maneuvers, a replacement for Fighting Styles published by Vorpal Dice Press. If you are not using this supplement, then ignore this section.",
+								{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "Aegis Strike",
+											"entries": [
+												"{@i Prerequisite: Timeless Monumental archetype}",
+												"When you take the Attack action on your turn, and hit a creature with a weapon attack, you can choose to have your attack deal no damage. Instead, the target is wreathed in a punishing barrier of energy. The first time the target makes an attack before the start of your next turn, it takes radiant damage equal to {@dice 2d6} + your Charisma modifier."
+											]
+										}
+									]
+								},
+								{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "Fortification",
+											"entries": [
+												"{@i Prerequisite: Timeless Monumental archetype}",
+												"When you take the Attack action on your turn, you can forgo one of your attacks in order to summon a wall of magical stone in an open space within 10 feet of you. The wall has AC equal to your AC, has hit points equal to your fighter level, and is up to 5 feet long, 5 feet tall, and 1 foot thick. At the start of your next turn, the wall instantly crumbles into dust before vanishing."
+											]
+										}
+									]
+								}
+									]
+								}
+							]
+						}],
+				[{"entries": [{"name": "Witness to Ruin",
+						"entries": [
+							"At 7th level, your transformation continues as you become further attuned to the Citadel. You no longer need to eat, drink, breathe, or sleep. In order to gain the benefits of a short or long rest, you must still spend the downtime performing only light activity.",
+							"Your eyes see the small cracks and wear upon everything around you, allowing you to mark the passage of time with perfect accuracy. You can unerringly identify the true age of any person or object that you can clearly see, and you can choose to know the time that the person will die of old age based on their current health, diet, and lifespan, down to the day. "
+						]
+					}]}],
+				[{"entries": [{"name": "Radiance of the Spire",
+							"entries": [
+								"At 10th level, your body and soul are bathed in the glorious light of the Citadel, granting you immortality. You no longer age and cannot be magically aged.",
+								"Whenever you are reduced to 0 hit points, you are automatically stabilized. Once this occurs, you can’t gain this benefit again until you finish a short or long rest."
+							]
+						}]}],
+				[{"entries": [{"name": "Titan's Virtue",
+								"entries": [
+									"At 15th level, you learn to call upon the triumphant power of the lost ages to contain the ruinous corruption wrought by mortality. Whenever you hit a creature that is within 10 feet of you with a weapon attack, it can’t choose to move to a location farther than 10 feet away from you during its next turn. If you move to a location farther than 10 feet away from it, then this restriction is lifted. "
+								]
+							}]}],
+			  [{"entries": [{"name": "Price of Preservation",
+							"entries": [
+												"At 18th level, you truly comprehend the nature of the Eternal Citadel, causing otherworldly power pour through you.",
+												"When an ally within 15 feet of you takes damage from an attack, you can use your reaction to intercede on their behalf, teleporting in a flash of light to an unoccupied space within 5 feet of their attacker. The attack hits you instead, regardless if the attack would have missed you had you been the initial target. Immediately after the attack resolves, the ally can use their reaction to make a weapon attack against their original attacker. "
+											]
+										}]}]
+			]
+		},
+		{"name": "The Fallen Exile",
+			"shortName": "Fallen Exile",
+			"class": "Warlock",
+			"source": "COFSA",
+			"page": 42,
+			"subclassSpells": [
+				"Color Spray",
+				"Faerie Fire",
+				"Continual Flame",
+				"See Invisibility",
+				"Blind",
+				"Daylight",
+				"Divination",
+				"Greater Invisibility",
+				"Dispel Evil and Good",
+				{"name": "Falling Star",
+					"source": "COFSA"}
+			],
+			"subclassFeatures":[
+				[{"name": "The Fallen Exile",
+					"entries": [
+						"Stars beyond measure populate the void beyond the world while celestial spheres circle above. You have met with one of their number, cast down by the many cold and unfeeling suns above for the sin of falling in love with a mortal. As punishment, the spiteful and envious stars shined their pale fury upon the paramour, destroying them utterly. The Exile now wanders the world it has been cast upon, appearing as a shimmer of light. Its goal is known only to those whom it trusts, and it grants power to them as it is powerless itself, stripped of interaction with the mortal world for its hubris. It endlessly searches, seeking either a soul of great kindness to help it find the knowledge and power to resurrect its fallen paramour or one unscrupulous enough to wage war upon the very stars themselves. The light shines, but that fire can be cold and merciless, like the wrath of a love destroyed.",
+						{"name": "Expanded Spell List",
+							"entries": [
+								"The Fallen Exile lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{"type": "table",
+									"caption": "Fallen Exile Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell Color Spray}, {@spell Faerie Fire}"
+										],
+										[
+											"2nd",
+											"{@spell Continual Flame}, {@spell See Invisibility}"
+										],
+										[
+											"3rd",
+											"{@spell Blink}, {@spell Daylight}"
+										],
+										[
+											"4th",
+											"{@spell Divination}, {@spell Greater Invisibility}"
+										],
+										[
+											"5th",
+											"{@spell Dispel Evil and Good}, {@spell Falling Star|COFSA}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Cosmic Conduit",
+							"entries": [
+								"At 1st level, the Exile’s duality of betrayal and compassion infuses your spellcasting, enabling you to reach into the world in the same way that it does. Whenever you cast a spell using a warlock spell slot, you can choose to cast the spell as though you were located in the space of an enemy or ally that you can see within 60 feet. When you cast from the space of an enemy, they take {@dice 1d6} radiant damage. When you cast from the space of an ally, they gain {@dice 1d6} temporary hit points. "
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Stardust Crusader",
+						"entries": [
+							"At 6th level, the Exile grants you a portion of the power it stole from the other stars as it fell, allowing access to their spirits.",
+							"Choose two of the following Dawn Constellations.",
+							{"type": "entries",
+							"entries": [
+								{"type": "entries",
+									"name": "The Chariot",
+										"entries": ["When you take the {@action Attack} action, you can take the {@action Dash} action as a bonus action."]
+									}
+							]
+					},
+							{"type": "entries",
+									"entries": [{"type": "entries",
+												"name": "Death",
+												"entries": ["You gain proficiency in death saving throws"]}]},
+							{"type": "entries",
+														"entries": [{"type": "entries",
+																	"name": "The Emperor",
+																	"entries": ["Fire, cold and lightning damage you deal ignores resistance."]}]},
+							{"type": "entries",
+											"entries": [{"type": "entries",
+													"name": "The Fool",
+													"entries": [" Whenever you cast a spell that does not deal damage, you can take the {@action Disengage} action as a bonus action. "]}]},
+							{"type": "entries",
+											"entries": [{"type": "entries",
+													"name": "The Hanged Man",
+													"entries": ["You gain advantage on ability checks and saving throws to see through illusions."]}]},
+							{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "The Lovers",
+											"entries": ["You have advantage on saving throws against the charmed condition."]
+															}
+													]
+											},
+							{"type": "entries",
+															"entries": [{"type": "entries",
+																		"name": "The Magician",
+																		"entries": ["Your spells of 1st level and higher ignore half and three-quarters cover so long as there is nothing between the sky and the target."]}]},
+							{"type": "entries",
+																				"entries": [{"type": "entries",
+																							"name": "The Sun",
+																							"entries": [" You can cast {@spell feather fall} at will without expending a spell slot, and you gain immunity to falling damage."]}]},
+							{"type": "entries",
+																	"entries": [{"type": "entries",
+																			"name": "Temperance",
+																			"entries": ["You gain advantage on Wisdom (Insight) checks made to discern the motives of creatures."]}]},
+							{"type": "entries",
+																	"entries": [{"type": "entries",
+																			"name": "The Tower",
+																			"entries": ["Damage you deal to unattended objects is tripled."]}]},
+							{"type": "entries",
+																	"entries": [{"type": "entries",
+																			"name": "The World",
+																			"entries": ["You learn one cantrip on the {@filter wizard spell list|spells|class=wizard} and it counts as a warlock cantrip for you. You can replace this cantrip with a different one from the wizard spell list whenever you finish a long rest. "]}]}
+						]
+					}]}],
+				[{"entries": [{"name": "Under the Night Sky",
+							"entries": [
+								"At 10th level, you wrest power from the Exile’s true foes with ease. Whenever you finish a long rest, you can exchange your chosen Constellations for different ones. Additionally, you gain resistance to radiant damage."
+							]
+						}]}],
+				[{"entries": [{"name": "Bound to the Aeons",
+								"entries": [
+									"At 14th level, you have finally usurped the celestial spheres. You can choose two of the following Dusk Constellations and can exchange them using your Under the Night Sky feature.",
+									{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "The Devil",
+												"entries": [" You have advantage on Persuasion checks."]
+											}
+									]
+							},
+									{"type": "entries",
+											"entries": [{"type": "entries",
+														"name": "The Empress",
+														"entries": ["When you finish a short or long rest, you gain temporary hit points equal to half your warlock level."]}]},
+									{"type": "entries",
+																"entries": [{"type": "entries",
+																			"name": "The Hierophant",
+																			"entries": [" You can cast {@spell water walk} at will targeting only yourself without expending a spell slot. You also gain resistance to fire and acid damage."]}]},
+									{"type": "entries",
+													"entries": [{"type": "entries",
+															"name": "Justice",
+															"entries": [" Whenever you cast a spell using a spell slot, you regain hit points equal to the level of the spell slot expended."]}]},
+									{"type": "entries",
+													"entries": [{"type": "entries",
+															"name": "The Hanged Man",
+															"entries": [" You can cast {@spell enlarge/reduce} without expending a spell slot. Once you do so, you can’t do so again until you finish a short or long rest. "]}]},
+									{"type": "entries",
+											"entries": [
+												{"type": "entries",
+													"name": "The Priestess",
+													"entries": ["While this Constellation is selected, your hit point maximum increases by your warlock level."]
+																	}
+															]
+													},
+									{"type": "entries",
+																	"entries": [{"type": "entries",
+																				"name": "The Star",
+																				"entries": ["As a bonus action, you can choose to end the charmed or frightened condition on yourself. Once you do so, you can’t do so again until you finish a short or long rest."]}]},
+									{"type": "entries",
+																						"entries": [{"type": "entries",
+																									"name": "Strength",
+																									"entries": ["You count as one size larger when determining carrying capacity, lifting, grappling, and shoving."]}]},
+									{"type": "entries",
+																			"entries": [{"type": "entries",
+																					"name": "The Wheel of Fortune",
+																					"entries": ["As a bonus action, you can create items worth 25 gp or less. They persist until you use this ability again. "]}]}
+								]
+							}]}]
+			]
+		},
+		{"name": "Way of the Fallen Star",
+			"shortName": "Fallen Star",
+			"class": "Monk",
+			"source": "COFSA",
+			"page": 44,
+			"subclassFeatures":[
+				[{"name": "The Fallen Exile",
+					"entries": [
+						"The night sky has offered peace and solace in times of turmoil, exposing the insignificance of those who walk upon the earth, yet you do not call out for peace. Your meditations have taken you to the void where the Fallen Exile once shined, filling your spirit with a blackened and sorrowful power. This may have come to pass by the intervention of the Exile, spiritual enlightenment you have sought yourself, or the teachings of a master who has traveled this dark path. Regardless of your original intention, your ki has been corrupted by this unnatural void within the cosmic order, granting you the ability to draw it forth to form a deadly weapon of light and eerie blackness. Fueling your techniques with the anguish of your foes, you strive ever closer to understanding the secrets within the eternal black star that lies at the center of the cosmos.",
+						{"name": "Void Blade ",
+							"entries": [
+								"At 3rd level, you learn to pull the corruption in your ki forth to create a weapon from light and shadow. This monk weapon inflicts {@dice 1d8} slashing damage and has the light, finesse, and thrown (30/60) properties. You can choose to manifest this weapon whenever you would attack with it, and it vanishes when it leaves your grasp or after being thrown. You can choose the appearance of this weapon whenever you summon it, but it always appears to be constructed of pure blackness clad in streamers of light."
+							]
+						},
+						{"name": "Moonlight Techniques",
+							"entries": [
+								"Also at 3rd level, your meditations unlock the powers hidden within your void blade, and you can channel your ki to activate them. You can spend 1 ki point to cast {@spell Black Lotus Assault|COFSA}, {@spell Duskwalk|COFSA}, {@spell Falling Spider’s Spite|COFSA}, or {@spell Masterful Focus} without providing material components."
+							]
+						}
+					]
+				}],
+				[{"entries": [
+					{"name": "Acolyte of the Lost Sun",
+					"entries":[
+						"At 6th level, your ki begins to manifest around your body as tiny motes of shadow that seek to preserve life even as it is taken. Whenever you cast a spell by spending ki points, you can use your bonus action to enter a defensive stance until the start of your next turn. The first time you take damage while in this stance, you can reduce that damage by three times the number of ki points you spent to cast the spell. "]
+						},
+					{"name": "Starlight Techniques",
+						"entries":[
+							"Also at 6th level, the darkness within your void blade deepens, granting you further power. Your void blade’s damage is now considered magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. Additionally, you can spend 2 ki points to cast {@spell Tormented Flurry|COFSA}, {@spell Shadow Armor|COFSA}, {@spell Dark Secret|COFSA}, or {@spell Heartripper|COFSA} without providing material components. Finally, you can spend 2 ki points to cast the spells granted by your Moonlight Techniques feature as if they were cast using a 2nd-level spell slot. "]
+							}
+				]}],
+				[{"entries": [
+					{"name": "Open Soul",
+					"entries":[
+						"At 11th level, your ki has become completely consumed by the space between the stars, leaving you with a soul laid bare to the secrets of the universe and open to consume the ki of others. Whenever you reduce a creature to 0 hit points using a monk weapon or unarmed strike, you gain advantage on your next attack roll, ability check, or saving throw. "]
+						},
+					{"name": "Sunless Techniques",
+						"entries":[
+							"Also at 11th level, your devotion to the darkness beyond the sky allows you to call forth even greater power. You can spend 3 ki points to cast {@spell Creeping Dark|COFSA}, {@spell Fox's Fangs|COFSA}, {@spell Shadow Refuge|COFSA}, or {@spell Shadow Toxin|COFSA} without providing material components. Finally, you can spend 3 ki points to cast the spells granted by your other Path of the Black Star features as if they were cast using a 3rd-level spell slot."]
+							}
+				]}],
+				[{"entries": [
+					{"name": "Otherworldly Knowledge",
+					"entries":[
+						"At 17th level, your spiritual journey has led you to gaze into the black heart of the stars themselves, where all light is eventually consumed, and it has gazed into you, granting you the collective wisdom of the universe. As an action, you can open your mind to this for 10 minutes. During this time, you gain proficiency in all skills and tools, and you can use your Wisdom modifier, instead of another ability modifier, for any skill check.",
+						"Once you use this feature, you can’t do so again until you finish a short or long rest."]
+						},
+					{"name": "Eclipse Techniques",
+						"entries":[
+							"Also at 17th level, you complete your explorations of your void blade and have finally seen the truth beyond the dark within. You can spend 4 ki points to cast {@spell Assassin's Promise|COFSA}, {@spell Crimson Cloak|COFSA}, {@spell Flashing Blades|COFSA}, or {@spell Unseen Claw|COFSA} without providing material components. Finally, you can spend 4 ki points to cast the spells granted by your other Path of the Black Star features as if they were cast using a 4th-level spell slot."]
+							}
+				]}]
+			]
+		},
+		{"name": "The Forbidden Graveyard",
+		  "shortName": "Forbidden Graveyard",
+		  "class": "Warlock",
+		  "source": "COFSA",
+		  "page": 47,
+		  "subclassSpells": [
+		    "Inflict Wounds",
+		    {"name": "Mend Flesh",
+		      "source": "COFSA"
+		    },
+				"See Invisibility",
+				{"name": "Suffer",
+				"source": "COFSA"},
+				"Phantom Steed",
+				"Sending",
+				{"name": "Dark Empowerment",
+				"source": "COFSA"},
+				"Phantasmal Killer",
+				"Hallow",
+				"Legend Lore"
+		  ],
+		  "subclassFeatures": [
+		    [{"name": "The Forbidden Graveyard",
+		      "entries": [
+		        "You’ve stepped into the Forbidden Graveyard, a sanctuary found on the boundary between life and death, where the rare few whose minds are attuned to this place come to wander as their bodies heal or slip away into the cold clutches of the night. Those who embrace the experience and seal shut the Gate of Souls within find themselves gifted with an understanding of both the living and the dead. Unknown to all but those like you, the Gate requires repayment for this mercy, and only the souls of others will do. Choose wisely, for all who cross your path are marked for collection by the Graveyard. It is up to you to safeguard them from that dark plane or to send them there to take your place in the cold embrace of death. ",
+		        {"name": "Expanded Spell List",
+		          "entries": [
+		            "the Forbidden Graveyard lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+		            {"type": "table",
+		              "caption": "Forbidden Graveyard Expanded Spells",
+		              "colLabels": [
+		                "Spell Level",
+		                "Spells"
+		              ],
+		              "colStyles": [
+		                "col-3 text-center",
+		                "col-9"
+		              ],
+		              "rows": [
+		                [
+		                  "1st",
+		                  "{@spell Inflict Wounds}, {@spell Mend Flesh|COFSA}"
+		                ],
+		                [
+		                  "2nd",
+		                  "{@spell See Invisibility}, {@spell Suffer|COFSA}"
+		                ],
+		                [
+		                  "3rd",
+											"{@spell Phantom Steed}, {@spell Sending}"
+		                ],
+		                [
+		                  "4th",
+		                  "{@spell Dark Empowerment|COFSA}, {@spell Phantasmal Killer}"
+		                ],
+		                [
+		                  "5th",
+		                  "{@spell Hallow}, {@spell Legend Lore}"
+		                ]
+		              ]
+		            }
+		          ]
+		        },
+		        {"name": "Rejection of the Crypt",
+		          "entries": [
+		            "At 1st level, your refusal to travel through the Gate of Souls has left a mark upon you that cannot be denied. You can add your Charisma modifier to death saving throws, and you gain immunity to effects that would reduce your hit point maximum. While you are at 0 hit points, you can still move, but you can’t take actions, reactions, or bonus actions."
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Ghoulish Constitution",
+		        "entries": [
+		          "Starting at 6th level, your flesh is filled with the icy chill of the grave. You can choose to allow attacks against you to hit. Whenever you are hit with a melee attack, you can use your reaction to steal life’s precious warmth from your attacker. When you do so, you gain resistance to the damage dealt, and the attacker takes cold damage equal to your warlock level. If the attacker is reduced to 0 hit points by this damage, you gain temporary hit points equal to your warlock level. If you already have temporary hit points, increase those temporary hit points by this amount instead.",
+							"You can use this feature twice, and you regain all expended uses when you finish a short or long rest."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Keeper of Souls",
+		        "entries": [
+		          "Starting at 10th level, your gain a measure of control over the spirits that dwell in the Graveyard. Whenever a hostile undead within 60 feet of you is reduced to 0 hit points, you gain temporary hit points equal to your warlock level. Also, you gain resistance to necrotic damage and immunity to effects that would kill you instantly without dealing damage."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Fear the Reaper",
+		        "entries": [
+		          "At 14th level, you are as implacable as the specter of death itself. You no longer age and cannot be magically aged. You gain immunity to the charmed and frightened conditions. As an action, you can mark a creature you can see within 30 feet of you with a terrible curse. When the creature takes damage, you can use your reaction to delay that damage and store it within a pool. At the end of each minute after the curse was cast, the target takes twice as much necrotic damage as is stored in the pool and the pool is emptied. This curse lasts for one hour or until the target dies."
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "Graverobber",
+		  "shortName": "Graverobber",
+		  "class": "Rogue",
+		  "source": "COFSA",
+		  "page": 39,
+		  "subclassFeatures": [
+		    [{"name": "Graverobber",
+		      "entries": [
+		        "You’ve nearly died. Sometime recently, or earlier in your life, you’ve fallen to the brink of death and felt your heartbeat stop. In that moment, far from hope, your spirit wandered the border of life and death, where it entered the Forbidden Graveyard. Amidst the sepulchers and crypts of this haunted dimension, you bore witness to the secrets of life and death, speaking with the fallen whose gaze chilled your very soul. Somehow, you returned from that fallen plane, but it has stained you. Your spirit is filled with both the eerie power of darkness and the flowing force of life, granting you the ability to touch the souls of others directly. You might still be living, but your every step is one of a dead man walking.",
+		        {"name": "Spirit Mending",
+		          "entries": [
+		            "Starting at 3rd level, your unnatural luck and affinity for the energies of life allow you to bring people back from the brink of death. When an ally within 5 feet of you is below half their hit point maximum, you can use your action to pour healing energy into them. The target recovers hit points equal to your rogue level + your Charisma modifier. If the target has been reduced to 0 hit points, they recover half as many hit points instead. Once a creature has been healed by this feature, it can’t be targeted again until it finishes a long rest."
+		          ]
+		        },
+		        {"name": "Soul Thief",
+		          "entries": [
+		            "At 3rd level, you learn to steal the life essence of your enemies, and your connection to the grave grants you incredible power. Whenever you or an undead you control kills a creature with an Intelligence score of 6 or greater, you can choose to harvest a fraction of your victim’s soul, binding it into a small object you keep about your person, such as a gemstone, doll, or weapon. Each object can contain only one such soul at a time.",
+								"As a bonus action, you can choose to unleash one of these enslaved spirits to do your bidding, freeing it from the item. If the spirit was bound to a weapon, you summon a ghostly version of the weapon and use it to make a melee weapon attack with a 15-foot reach. This attack deals force damage. After the attack is made, the ethereal weapon vanishes.",
+								"If the spirit was bound to any other item, its release opens a small, shadowy rift to the Graveyard through the Ethereal Plane. You can teleport to a location that you can see within 10 + 5 times your Charisma modifier (minimum 10) feet of you.",
+								"Whenever you finish a long rest, your powerful soul calls to the Graveyard, bringing forth a number of spirits for you to bind equal to your Charisma modifier (minimum 1). The maximum number of spirits you can have bound at once is equal to twice your Charisma modifier (minimum 2).",
+								"You can choose to release a spirit without effect at any time to make space for a new one."
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Whisper to the Fallen",
+		        "entries": [
+		          "Starting at 9th level, your voice gains an unearthly quality, allowing you to commune with the departed. You can cast {@spell speak with dead} at will without expending a spell slot, but you can only target a soul that you have bound to an item. You ignore the requirement that the corpse must still have a mouth when you cast the spell using this feature.",
+							"Spirits summoned from the Graveyard are mindless and rarely have anything interesting to say."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Hangman’s Dance",
+		        "entries": [
+		          "At 13th level, your control over the spirits of the dead enables you to bend them more fully to your whims. You gain the ability to cast {@spell animate dead} without expending a spell slot by unleashing one of your bound souls instead.",
+							"You can use this feature twice in this way, and you regain all expended uses of it when you finish long rest.",
+							"Also, you can use your bonus action to cause all friendly undead within 60 feet of you to surge with otherworldly power. Each undead can use its reaction to move up to 30 feet without provoking opportunity attacks and ignoring difficult terrain."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "No Rest for the Wicked",
+		        "entries": [
+		          "At 17th level, your darkly stained soul fully reconnects with your body, allowing you to bridge the gap between the Graveyard and the other planes with ease. Whenever you roll initiative, you can choose one hostile creature that you can see within 60 feet of you. That creature is marked by the Gate of Souls as a beacon for the energies of the fallen who lurk within the Graveyard. Once per turn when you deal damage to that creature, you can choose to bind a single soul from the Graveyard to an item in your possession. This mark lasts for one minute."
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "The Gelatinous Convocation",
+		  "shortName": "Gelatinous Convocation",
+		  "class": "Warlock",
+		  "source": "COFSA",
+		  "page": 54,
+		  "subclassSpells": [
+		    "Grease",
+				"Tasha's Hideous Laughter",
+				"Acid Arrow",
+				"Enlarge/Reduce",
+				"Meld into Stone",
+				"Water Walk",
+				"Stone Shape",
+		    {"name": "Slime Sphere",
+		      "source": "COFSA"
+		    },
+				{"name": "Summon Slime",
+		      "source": "COFSA"
+		    },
+				{"name": "Wall of Ooze",
+		      "source": "COFSA"
+		    }
+		  ],
+		  "subclassFeatures": [
+		    [{"name": "Gelatinous Convocation",
+		      "entries": [
+		        "You’ve made a pact with the cheerful wandering cubes of sentient ooze that wiggle and wobble their way across the multiverse. They visit worlds beyond measure with the singular goal of spreading their offspring within the deepest dungeons to collect and absorb the memories of the fallen. As they happily bounce between the planes, they occasionally encounter a soul they view as truly amusing. With a mere wave of their pseudopods, they granted you a measure of their strange power over slimes and oozes. Now, their joy is yours. ",
+		        {"name": "Expanded Spell List",
+		          "entries": [
+		            "The Gelatinous Convocation lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+		            {"type": "table",
+		              "caption": "Gelatinous Convocation Expanded Spells",
+		              "colLabels": [
+		                "Spell Level",
+		                "Spells"
+		              ],
+		              "colStyles": [
+		                "col-3 text-center",
+		                "col-9"
+		              ],
+		              "rows": [
+		                [
+		                  "1st",
+		                  "{@spell Grease}, {@spell Tasha's Hideous Laughter}"
+		                ],
+		                [
+		                  "2nd",
+		                  "{@spell Acid Arrow}, {@spell Enlarge/Reduce}"
+		                ],
+		                [
+		                  "3rd",
+		                  "{@spell Meld into Stone}, {@spell Water Walk}"
+		                ],
+		                [
+		                  "4th",
+		                  "{@spell Stoneshape}, {@spell Slime Sphere|COFSA}"
+		                ],
+		                [
+		                  "5th",
+		                  "{@spell Summon Slime|COFSA}, {@spell Wall of Ooze|COFSA}"
+		                ]
+		              ]
+		            }
+		          ]
+		        },
+		        {"name": "Recovered Memories",
+		          "entries": [
+		            "At 1st level, you learn to dissolve the bodies of the dead and learn from their lives. As an action while standing adjacent to a corpse, you can produce an iridescent acid that consumes the corpse over the course of 1 minute.",
+								"Once the process has finished, you can reabsorb the acid to access the creature’s memories. You gain information about the creature’s last 48 hours alive and the most important memories from their final year of life.",
+								"Once you use this feature, you can’t use it again until you finish a long rest."
+		          ]
+		        },
+						{"name": "Cheerful Friend",
+		          "entries": [
+		            "At 1st level, you gain the ability to speak with oozes and communicate simple concepts, even if they can’t speak a language. You are not subject to acid damage that would be caused by a non-hostile ooze touching you, and you gain resistance to acid damage."
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Side Splitting",
+		        "entries": [
+		          "At 6th level, your body becomes somewhat... slimy. Whenever you suffer damage, you can use your reaction to divide into a Medium swarm of Tiny oozes. Your hit points remain the same, and you function as a single unified swarm that occupies the same space as a Medium creature. While in this state, you can’t take actions other than the Dash action, your movement speed is halved, you gain resistance to bludgeoning, piercing, and slashing damage, you gain immunity to acid and poison damage, you don’t provoke opportunity attacks, and you can move through any space as narrow as 1 inch without squeezing. You can return to your normal form at will without using an action, provided there is room to do so.",
+							"Once you use this feature, you can’t use it again until you finish a long rest. Starting at 10th level, you can use this feature at will as an action. Using this feature as a reaction is still limited to once per long rest."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Acidic Body",
+		        "entries": [
+		          "At 10th level, your form is infused with caustic power. You gain immunity to acid damage. Whenever a creature starts its turn in a grapple with you, you can choose to have it take 2d8 acid damage."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Consuming Joy",
+		        "entries": [
+		          "Starting at 14th level, your understanding of the happiness that pervades the Gelatinous Convocation grants you immunity to the charmed condition. You also gain the ability to cast the {@spell polymorph} spell, but the target can only be turned into an ooze. You can cast this spell using a warlock spell slot or without expending a spell slot. When you cast it without expending a spell slot, you can’t do so again until you finish a long rest. "
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "Esoteric Plasmology",
+		  "shortName": "Esoteric Plasmology",
+		  "class": "Wizard",
+		  "source": "COFSA",
+		  "page": 56,
+		  "subclassFeatures": [
+		    [{"name": "Esoteric Plasmology",
+		      "entries": [
+		        "It is common for one to ask a disciple of this tradition: “Are you a wizard that casts ooze-related spells, or an ooze that is a wizard?”",
+						"The truth is, both are correct.",
+						"Esoteric plasmology has long ties to the Gelatinous Convocation, which wanders between worlds spreading happy, cheerful slimes to all corners of the multiverse. Though direct interaction with the Convocation is uncommon for practitioners of this tradition, many are apprenticed to more powerful ooze wizards for a time as they learn to control their newfound power. While the slime core that awakens within a practitioner seems to grant a surprising amount of control over one’s form, careful study and research is required to coax the more powerful magics from this arcane phenomenon. As such, ooze wizards traditionally adventure in order to expand their knowledge of the physical world, enjoying a life of leisure and hardship alike in their quests for purpose and power.",
+		        {"name": "Primordial Form",
+		          "entries": [
+		            "When you choose this tradition at 2nd level, a slime core develops within your body, allowing you to assume the primordial form of the first acolytes of the Convocation. As an action, you can enter a primordial form, filling yourself with the giddy glee of an ooze and changing your appearance to appear as a slime-like caricature of your normal form. You gain advantage on Charisma checks and gain resistance to acid damage, but you suffer disadvantage on Wisdom checks. You can exit this form as an action, though doing so requires a successful Wisdom saving throw against your spell save DC."
+		          ]
+		        },
+		        {"name": "Simply Slippery",
+		          "entries": [
+		            "Also at 2nd level, your newfound malleability and magical aptitude grants you several benefits. You can use an action to begin to emit bright light in a 10-foot radius, and dim light in a 20-foot radius.",
+								"Whenever you would suffer damage from falling, you can use your reaction to reduce the damage taken by four times your wizard level.",
+								"Finally, you can squeeze through spaces at least 5 inches wide, even if you would not normally fit. "
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Weird Magic",
+		        "entries": [
+		          "At 6th level, the mystical motions you perform when casting spells become fluid and warped, causing slime to drip from your fingertips with every gesture. Whenever you cast a spell, you can choose an unoccupied space within 10 feet of you. The coiling ooze from your hands assembles in this space, forming a 5-foot cube of colorful slime. This slime is immobile, provides half cover, has an AC of 6, and has hit points equal to your wizard level. The slime remains until you dismiss it (no action required) or it is destroyed.",
+							"As a bonus action, you can cause one of these slimes to extend a pseudopod to grab a creature within 5 feet of it. The target must make a Strength saving throw against your wizard spell save DC. If they fail, they are grappled by the cube. The DC to escape from the grapple is equal to your spell save DC. "
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Caustic Viscosity",
+		        "entries": [
+		          "At 10th level, the magic you wield becomes further infused with ooze. Whenever you cast a spell with a duration of “Instantaneous” that affects an area, you can use a bonus action to summon a mass of slime in the area. The ground within the area becomes difficult terrain for one minute, or until another spell is cast targeting the area that inflicts fire, cold, or necrotic damage. Creatures that end their turn within the area suffer 1d6 acid damage. You ignore the effects of this slime."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Cheerful Recollection",
+		        "entries": [
+		          "At 14th level, your mastery of the arts of esoteric plasmology has granted you a connection with the Gelatinous Convocation, allowing you to tap into their understanding of the world through the creatures they have gracefully consumed. Whenever you are in your primordial form, you can add your proficiency bonus to any skill or ability check you make.",
+							"Additionally, you learn to cast {@spell speak with dead} as a ritual."
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "The Gray Portrait",
+		  "shortName": "Gray Portrait",
+		  "class": "Warlock",
+		  "source": "COFSA",
+		  "page": 60,
+		  "subclassSpells": [
+		    "Color Spray",
+				"Sanctuary",
+				"Calm Emotions",
+				"Enhance Ability",
+				"Glyph of Warding",
+				"Sending",
+				"Death Ward",
+				"Stone Shape",
+				"Mislead",
+				"Seeming"
+		  ],
+		  "subclassFeatures": [
+		    [{"name": "The Gray Portrait",
+		      "entries": [
+		        "Your dedication to art and beauty has led you to discover the art of creating a Gray Portrait: an artifact that your soul and body are bound to that channels the ambitions you have always held but never revealed. The portrait reflects your inner self and the dark desires you hold, and suffers the damage you would take, the diseases you would contract, and the cruelty you may inflict. It grants you the power to use your art to perform feats of incredible magic, and to paint beauty and ugliness alike upon the fabric of reality. This freedom often has hideous consequences, as you are forever tormented by the demands of that horrible self that lurks within your painted mirror. You are not yourself. You are a copy, a false perfection created by a master, and your master’s demands must be met. The Portrait requires it.",
+		        {"name": "Expanded Spell List",
+		          "entries": [
+		            "The Gray Portrait lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+		            {"type": "table",
+		              "caption": "Gray Portrait Expanded Spells",
+		              "colLabels": [
+		                "Spell Level",
+		                "Spells"
+		              ],
+		              "colStyles": [
+		                "col-3 text-center",
+		                "col-9"
+		              ],
+		              "rows": [
+		                [
+		                  "1st",
+		                  "{@spell Color spray}, {@spell Sanctuary}"
+		                ],
+		                [
+		                  "2nd",
+		                  "{@spell Calm Emotions}, {@spell Enhance Ability}"
+		                ],
+		                [
+		                  "3rd",
+		                  "{@spell Glyph of Warding}, {@spell Sending}"
+		                ],
+		                [
+		                  "4th",
+		                  "{@spell Death Ward}, {@spell Stone Shape}"
+		                ],
+		                [
+		                  "5th",
+		                  "{@spell Mislead}, {@spell Seeming}"
+		                ]
+		              ]
+		            }
+		          ]
+		        },
+		        {"name": "Bound to the Portrait",
+		          "entries": [
+		            "At 1st level, you create and magically bind yourself to your Gray Portrait. The Gray Portrait is a Small or Medium object that weighs at least 15 pounds, has AC 15, hit points equal to four times your warlock level, resistance to all damage, and uses your statistics for saving throws. It can be repaired at a rate of 1 hit point per minute. You can choose to see through the Portrait’s eyes at any time and are always aware of its current state. If your portrait is destroyed, you tirelessly construct another during your next long rest, and you gain no benefit from that long rest.",
+								"If a spell has the sole effect of restoring you to life, such as {@spell revivify}, the caster can cast the spell on the portrait as though it were your whole corpse without using material components,causing you to step forth from your portrait. However, if your portrait is destroyed and you are dead, you can’t be revived without the use of the {@spell wish} spell.",
+								"You can use your action to cure yourself of any effect that is causing you to be poisoned, diseased, cursed, blinded, or deafened, sending the affliction to appear on your portrait. You can’t do this if it is destroyed"
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Hunger Within",
+		        "entries": [
+		          "At 6th level, your portrait’s desires begin to catch up to you, and only cruelty or creation will sate it. Whenever a creature succeeds on a saving throw against a spell you cast using a warlock spell slot, you can use your bonus action to tear an unseen fraction of their life from them. When you do, you learn the target’s ability scores. For 1 minute, you gain advantage on ability checks and saving throws associated with their highest ability score, and they gain disadvantage on their first saving throw associated with that score.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "The Painted World",
+		        "entries": [
+		          "At 10th level, your distinction between reality and the false world of art grows ever thinner. As a bonus action, you can touch an artwork that is Large or larger, creating a portal to a demiplane. The demiplane can be up to 100 feet in every dimension, depending on the level of detail present in the artwork. Any object, creature, or effect can pass through into the art demiplane freely as though the art was an open doorway to another room. The demiplane duplicates the subject of the artwork, containing all objects and locations depicted therein. Everything within the artwork is static, including painted creatures, instantly disintegrates to dust if removed, and has no value. While within, everything from the real world changes in appearance to match the style of the art. A creature trying to detect that something within the art demiplane is real has disadvantage on checks made to do so, and creatures standing still within the art demiplane have advantage on Stealth checks. While you are in an art demiplane, you have advantage on checks made to identify objects, people, and concepts represented within.",
+							"If you leave the demiplane or if the painting is an animate image and it changes appearance or moves, every creature and object that entered from the real world is immediately ejected and the demiplane vanishes"
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "The Canvas of Reality",
+		        "entries": [
+		          "At 14th level, you learn to change the fabric of the universe to suit the cruel desires of your portrait. Whenever you cast a spell using a warlock spell slot, you can choose a 20-foot cube you can see within 60 feet of you. You can reshape unattended nonmagical objects within that space into different nonmagical objects. The new objects must be of the same size category as the previous objects or smaller and must be of equal or lesser value (measured in gold pieces) and can be of any material or quality so long as it meets the other requirements. For example, you could turn a pile of crates into a collection of chairs, a tree into a mound of ash, a diamond into a fine ruby, or a fortress wall into a pile of sand."
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "College of Portraiture",
+		  "shortName": "Portraiture",
+		  "class": "Bard",
+		  "source": "COFSA",
+		  "page": 62,
+		  "subclassFeatures": [
+		    [{"name": "College of Portraiture",
+		      "entries": [
+		        "Bards of the College of Portraiture are artisans first and foremost. Through your intensive study of anatomy and artistry, you’ve begun to unlock the secrets of instilling your soul into your creations. The creation of a Gray Portrait is a perversion of this technique, linking one’s whole essence and intrinsic talent to a single piece of art. Artisans like you view that heretical practice as shortsighted and limited. True artistic mastery lies in the ability to imbue each masterpiece with a fragment of one’s soul, binding each creation to the artist in an elegant and harmonious union. Your skill and talent in the manipulation of your life essence allows you to create and animate works of art in your own image. Narcissism is common among the practitioners of this College, though it can hardly be faulted. If everyone could portray themselves so beautifully, surely they would.",
+		        {"name": "Master Artisan",
+		          "entries": [
+		            "When you join the College of Portraiture at 3rd level, you gain the ability to create incredible works of art at a manic pace. You gain proficiency in any tools required to paint or create statuary, and you can add your proficiency bonus twice to all checks made with these tools.",
+								"You no longer require sleep, but must still perform light activity, such as reading, painting, or keeping watch, to gain the benefits of a rest.",
+								"During a rest, you can summon the materials and tools to create Small or Medium portraits or statues, and you can complete one such work each hour. You can also expend one use of your Bardic Inspiration per rest to grant yourself an artistic bonus. Roll a Bardic Inspiration die and add the result to your ability check to determine the quality of the your work. To finish a piece made with this feature, you must imbue it with a fragment of your soul, making it permanent and impossible to dispel. You can sell or give away imbued art, but you gain 1 level of exhaustion when someone else takes ownership of a piece."
+		          ]
+		        },
+		        {"name": "Living Exhibition",
+		          "entries": [
+		            "Also at 3rd level, you gain the ability to breathe life and purpose into artwork made in your image.",
+								"When you create a painting or statue that is a portrait of yourself and is equal to or smaller than your size, you can imbue it with a fragment of your soul and bring it to life by expending a spell slot of 1st level or higher.",
+								"The masterpiece becomes an animate portrait-soldier. Each portrait-soldier has hit points equal to twice your bard level + three times the level of the expended spell slot, has an AC equal to 12 + the level of the expended spell slot, and is equipped with a nonmagical version of a simple or martial weapon in which you have proficiency. If the weapon requires ammunition, the soldier appears with 30 pieces of ammunition in a quiver.",
+								"Portrait-soldiers share your statistics and act on your initiative, but automatically fail Wisdom and Intelligence ability checks and saving throws. Portrait-soldiers can’t speak, operate magical items, or cast spells and lack sufficient autonomy to attack without your magical direction. A creature that is charmed or frightened by you is also charmed or frightened by all of your portrait-soldiers.","When you take the {@action Attack} action, you can expend a spell slot of 1st level or higher to infuse a malevolent spark into your portrait-soldiers. A number of portrait-soldiers up to the level of the expended spell slot can take the Attack action until the end of your turn.",
+								"You can animate a number of portrait-soldiers equal to Charisma modifier (minimum 1). Every 24 hours, you must expend a spell slot for each in order to maintain the soul link that animates them, adjusting their hit point maximum and AC if necessary, or they crumble to dust."
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Legion's Defense",
+		        "entries": [
+		          "Starting at 6th level, your control over your portrait-soldiers improves. Whenever a creature would provoke an opportunity attack from a portrait-soldier, you can use your reaction to enable the soldier to make the attack.",
+							"Also, whenever two or more of your portrait-soldiers make a saving throw against the same effect and one succeeds, the others also succeed automatically."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Personal Unity",
+		        "entries": [
+		          "Starting at 14th level, the soul link with your portraitsoldiers becomes more efficient, enabling you to unlock the latent power within them. You can now animate a number of portrait-soldiers equal to twice your Charisma modifier (minimum 2).",
+							"Whenever you cast a spell, you can use one of your portraitsoldiers as the point of origin or as a vessel to deliver the spell. Whenever a portrait-solider would take damage, you can use your reaction to channel your life energy into it. The target gains temporary hit points equal to the number of hit points you sacrifice (up to your bard level).",
+							"Whenever you would take damage, you can use your reaction to sacrifice the life of one of your portrait-soldiers before the damage is applied. You gain temporary hit points equal to the portrait-soldier’s remaining hit points, and the portrait-soldier is destroyed."
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "The Keeper of the Depths",
+		  "shortName": "Keeper of the Depths",
+		  "class": "Warlock",
+		  "source": "COFSA",
+		  "page": 65,
+		  "subclassSpells": [
+		    "Identify",
+				"Sleep",
+				"Locate Object",
+				"Zone of Truth",
+		    {"name": "Crushing Tide",
+		      "source": "COFSA"},
+			  {"name": "Luring Light",
+					"source": "COFSA"},
+				"Control Water",
+		    {"name": "Sleepwalking",
+		      "source": "COFSA"},
+			  {"name": "Forgotten Pain",
+			    "source": "COFSA"},
+					"Legend Lore"
+		  ],
+		  "subclassFeatures": [
+		    [{"name": "The Keeper of the Depths",
+		      "entries": [
+		        "You’ve made a pact with an ancient oceanic entity known as the Keeper of the Depths. As life teems within the seas, so do the secrets of the forgotten ages – sunken cities, ships lost at sea, and treasures unimaginable gone to the darkest currents that churn with horrible tentacles and creatures from nightmare. The Keeper watches over all this hidden knowledge, and harvests ever more in its endless pursuit of the unspoken secrets of the universe. In the deepest crevices where sunlight has never been seen, all oceans are one to the Keeper of the Depths, and its desire is insatiable.",
+		        {"name": "Expanded Spell List",
+		          "entries": [
+		            "The Keeper of the Depths lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+		            {"type": "table",
+		              "caption": "Keeper of the Depths Expanded Spells",
+		              "colLabels": [
+		                "Spell Level",
+		                "Spells"
+		              ],
+		              "colStyles": [
+		                "col-3 text-center",
+		                "col-9"
+		              ],
+		              "rows": [
+		                [
+		                  "1st",
+		                  "{@spell Identify}, {@spell Sleep}"
+		                ],
+		                [
+		                  "2nd",
+		                  "{@spell Locate Object}, {@spell Zone of Truth}"
+		                ],
+		                [
+		                  "3rd",
+		                  "{@spell Crushing Tide|COFSA}, {@spell Luring Light|COFSA}"
+		                ],
+		                [
+		                  "4th",
+		                  "{@spell Control Water}, {@spell Sleepwalking|COFSA}"
+		                ],
+		                [
+		                  "5th",
+		                  "{@spell Forgotten Pain|COFSA}, {@spell Legend Lore}"
+		                ]
+		              ]
+		            }
+		          ]
+		        },
+		        {"name": "Secrets of the Lost",
+		          "entries": [
+		            "Starting at 1st level, your patron visits you in your dreams,  stealing fragments of your experiences in exchange for hidden knowledge. Whenever you finish a long rest, you gain proficiency in two skills, languages, or tools of your choice. You remain proficient in these until you finish another long rest, at which point you can choose new ones to replace them.",
+								"Additionally, you gain a swimming speed equal to your walking speed."
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Sailor's Nightmare",
+		        "entries": [
+		          "At 6th level, you learn to curse your enemies, using the weight of ethereal water to drag them into the sea’s embrace. As a bonus action, you can curse a creature that you can see within 60 feet of you for 1 minute. While the creature is afflicted by this curse, it cannot jump or fly, and it treats all terrain as difficult terrain. If the creature is flying or swimming, it automatically descends 60 feet at the start of each of its turns.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest. "
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Madness of the Deep",
+		        "entries": [
+							"At 10th level, the Keeper’s gaze looms over you. Whenever you take damage, you can use your reaction to unleash a wave of black ink to cloud the air in a 10-foot radius of your current location for one minute, heavily obscuring the area. Hostile creatures that end their turn within the area must make a Wisdom saving throw against your warlock spell save DC. If they fail, they are {@condition frightened} until the start of your next turn and must attempt to escape the cloud.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Hunger for Knowledge",
+		        "entries": [
+							"Starting at 14th level, you can summon the terrible maw of the Keeper to appear before you as an action. A massive beak surrounded by tentacles appears and attempts to grab a target of your choice within 30 feet. When a creature is targeted, it must make a Strength saving throw against your warlock spell save DC to shake off the grasp of the horror. If the target fails, it is dragged into the beak and bitten, taking {@dice 6d10} piercing damage and {@dice 6d10} psychic damage. If this is enough to reduce the target to 0 hit points, you can choose to have them be swallowed whole by the mouth, consuming them. Either way, the maw then immediately disappears.",
+							"Once you summon this maw, you can’t do so again until you finish a long rest.",
+							"If the maw consumes a creature using this feature, your patron visits you in your dreams during your next long rest and grants you a boon in return for the sacrifice. Choose any spell of 5th level or lower from the warlock or wizard spell lists. You can cast this spell twice using a warlock spell slot, after which it is lost. The spell is also lost if you sacrifice a new creature and select a new spell using this feature. "
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "Dream Cartography",
+		  "shortName": "Dream Cartography",
+		  "class": "Wizard",
+		  "source": "COFSA",
+		  "page": 67,
+		  "subclassFeatures": [
+		    [{"name": "Dream Cartography",
+		      "entries": [
+		        "The sleeping mind stares out into an endless vista, stitching together the thoughts and actions of the day into dreams. Yet, in a world of magic, especially to a practitioner of the arcane arts, dreams hold far greater revelations. By mapping one’s own mental landscape, new insights into reality can be found and harnessed. Many of these wizards often draw the attentions of the Keeper of the Depths, who may greet them by offering bargains both simple and terrible. Few have the liberty of continuing their pursuits without attracting its attention, as the ripples of magic across the dreamscape are particularly attractive to this ancient nightmare. You’ve chosen to begin to map your own dreams by pursuing this tradition, seeking insight into the lands beyond the veil of sleep.",
+		        {"name": "Dreamscape Spellbook",
+		          "entries": [
+		            "When you choose this tradition at 2nd level, you develop a peculiar memorization technique. You gain {@sense darkvision} out to 60 feet. Whenever you are in darkness, you can access your dreamscape spellbook, which is a mental construct that you’ve created to aid in your understanding of the spells you learn. When you are inscribing a spell into your physical spellbook during a long rest, you can choose to also inscribe the spell into your dreamscape spellbook without cost. You can copy down spells from your dreamscape spellbook into a physical spellbook in half the time it would normally take you to copy a spell."
+		          ]
+		        },
+		        {"name": "Upon the Veil of Night",
+		          "entries": [
+		            "Also at 2nd level, you learn to use your spellcasting to call forth fragments of your dreamworld into reality. Whenever you cast a spell of 1st level or higher using a spell slot, you can use your bonus action to create an effect based on the school of the spell you cast. You can use this feature a number of times equal to your Intelligence modifier (minimum 1), and you regain all expended uses when you finish a long rest.",
+								{"type": "list",
+								"items":[
+									{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "Abjuration",
+												"entries": ["You dream of a wall, infinite in majesty. Choose an unoccupied space that is up to 10 feet high, 10 feet wide, and one foot thick. A dreamscape wall appears in the location that lasts until the end of your next turn. The wall has hit points equal to your Intelligence modifier plus your wizard level (minimum 1), and AC 10."]
+											}
+									]
+							},
+									{"type": "entries",
+											"entries": [
+												{"type": "entries",
+														"name": "Conjuration",
+											"entries": ["You dream of a portal to faraway lands. Choose an unoccupied space within 5 feet of you. A portal appears in this space that lasts until the start of your next turn. Whenever you or another creature enters the portal, they teleport to an unoccupied point of your choosing within 20 feet of the portal, determined by you when they enter."]
+									}
+							]
+					},
+									{"type": "entries",
+									"entries": [
+										{"type": "entries",
+												"name": "Divination",
+									"entries": ["You dream of a star, shining above the world. A radiant light appears at a location of your choosing within 30 feet of you. This light counts as natural sunlight and casts bright light in a 50-foot radius and dim light in an additional 50-foot radius. The light lasts for 1 minute or until you dismiss it as a bonus action."]
+							}
+					]
+			},
+									{"type": "entries",
+							"entries": [
+								{"type": "entries",
+										"name": "Enchantment",
+							"entries": ["You dream of a beautiful landscape. One creature of your choosing within 30 feet of you must make a Wisdom saving throw against your wizard spell save DC. If they fail, they are charmed during their next turn and will move directly towards you by the safest open route. "]
+					}
+			]
+	},
+									{"type": "entries",
+					"entries": [
+						{"type": "entries",
+								"name": "Evocation",
+					"entries": ["You dream of a great cataclysm. Choose one creature targeted by your spell or a creature within 30 feet of you. That creature must make a Strength saving throw against your wizard spell save DC or be knocked prone."]
+			}
+	]
+},
+									{"type": "entries",
+				"entries": [
+					{"type": "entries",
+							"name": "Illusion",
+				"entries": ["You dream of a maze of mirrors and mist. You become heavily obscured until the start of your next turn, but you can see clearly from inside the fog."]
+		}
+]
+},
+									{"type": "entries",
+				"entries": [
+					{"type": "entries",
+							"name": "Necromancy",
+				"entries": ["You dream of an open grave. Choose a creature within 30 feet of you. The target must make a Wisdom saving throw against your wizard spell save DC. If they fail, the next time they take damage from a weapon attack, they also take extra necrotic damage equal to your wizard level."]
+		}
+]
+},
+									{"type": "entries",
+				"entries": [
+					{"type": "entries",
+							"name": "Transmutation",
+				"entries": ["You dream of a world, strange yet familiar. Choose a number of 5-foot cubes within 30 feet of you equal to the level of the spell cast. These cubes become difficult terrain for 1 minute."]
+		}
+]
+}
+									]}
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Descent into the Depths",
+		        "entries": [
+		          "Starting at 6th level, you learn to drag others with you into your dreams. Whenever you cast a spell of 1st level or higher while you have access to your dreamscape spellbook you can use your bonus action to enter a harmless dreamscape until the end of your next turn, reappearing at a location of your choosing within 30 feet of the point of your departure. You can touch a creature when you enter, bringing them with you. Neither of you can use actions or take damage while in this dreamscape. If you cannot reappear at the point you chose, you are shunted to the nearest open location and take 10 force damage."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "In the Place Beyond",
+		        "entries": [
+		          "At 10th level, your dreams come to you even in your waking moments. You can now access your dreamscape spellbook while you are in either dim light or darkness.",
+							"Additionally, you can choose to cast spells as though you were located at any point that you can see within 15 feet of your current location, provided that location is within dim light or darkness."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "The End of Sleep",
+		        "entries": [
+		          "At 14th level, you have encountered the dreams of a powerful entity and have learned the secrets of the universe from its ancient mind. This could be the Keeper of the Depths or another eldritch being that defies comprehension. Regardless of its nature, it offers you power over your dreams in exchange for the sacrifice of blood.",
+							"When you cast a spell of 6th level or higher using a spell slot, you can choose to recover all expended uses of your Upon the Veil of Night feature. When you do this, target one humanoid creature within 60 feet of you that you can see. If there are no other targets available, you must target yourself. The target must make a Wisdom saving throw against your wizard spell save DC. If they fail, they take {@dice 8d10} psychic damage as the eldritch entity feasts upon their mind. If they are slain by this damage, their body is consumed and they vanish into the dreamscape, leaving only magical items behind.",
+							"Once you use this feature, you can’t do so again until you finish a long rest."
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "The Perfect Chord",
+		  "shortName": "Perfect Chord",
+		  "class": "Warlock",
+		  "source": "COFSA",
+		  "page": 72,
+		  "subclassSpells": [
+		    {"name": "Shrill Whistle",
+		      "source": "COFSA"},
+					"Thunderwave",
+					"Knock",
+					"Silence",
+					"Beacon of Hope",
+				{"name": "Resonance",
+						"source": "COFSA"},
+					"Compulsion",
+				{"name": "Shattersong",
+						"source": "COFSA"},
+					"Animate Objects",
+					"Awaken"
+		  ],
+		  "subclassFeatures": [
+		    [{"name": "The Perfect Chord ",
+		      "entries": [
+		        "You have heard the most sublime sound in the world, and it has changed you forever. You’ve taken the resonance into your beating heart and it has brought meaning and inspiration to your days. The Perfect Chord resounds through the quiet places of the world as a clear and harmonious note that spirals with infinite complexity, gaining sentience and life with every sound it collects. It has no motive but to include every sound in the universe within itself, and it inspires others with an endless desire to find new forms of radiant music to call forth and collect.",
+		        {"name": "Expanded Spell List",
+		          "entries": [
+		            "The Perfect Chord  lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+		            {"type": "table",
+		              "caption": "Perfect Chord Expanded Spells",
+		              "colLabels": [
+		                "Spell Level",
+		                "Spells"
+		              ],
+		              "colStyles": [
+		                "col-3 text-center",
+		                "col-9"
+		              ],
+		              "rows": [
+		                [
+		                  "1st",
+		                  "{@spell Shrill Whistle|COFSA}, {@spell Thunderwave}"
+		                ],
+		                [
+		                  "2nd",
+		                  "{@spell Knock}, {@spell Silence}"
+		                ],
+		                [
+		                  "3rd",
+		                  "{@spell Beacon of Hope}, {@spell Resonance|COFSA}"
+		                ],
+		                [
+		                  "4th",
+		                  "{@spell Compulsion}, {@spell Shattersong|COFSA}"
+		                ],
+		                [
+		                  "5th",
+		                  "{@spell Animate Objects}, {@spell Awaken}"
+		                ]
+		              ]
+		            }
+		          ]
+		        },
+		        {"name": "Seeker of the Sound",
+		          "entries": [
+		            "At 1st level, your heartbeat is tuned to the Perfect Chord. You gain proficiency in the Performance skill and with all musical instruments. You can use a musical instrument as a spellcasting focus for your warlock spells, and can play it in place of using a verbal spellcasting component.",
+								"When you cast a spell that has only a verbal and somatic component, you can choose to cast it as though it only had a verbal component.",
+								"When you cast a spell of 1st level or higher that only has a verbal component, including those modified by this feature, you gain temporary hit points equal to your Charisma modifier that last for one minute. "
+		          ]
+		        }
+		      ]
+		    }],
+		    [{"entries": [{"name": "Instrument of the Chord",
+		        "entries": [
+		          "At 6th level, your practice teaches you to turn others into your instruments. Using your bonus action, you can curse or harmonize with one creature within 60 feet of you. Each time you cast a spell using a warlock spell slot, you can cause that creature to vibrate in harmony with your spell. If the creature is friendly, its movement speed is doubled until the end of its next turn. If it is hostile, it must make a Constitution saving throw against your warlock spell save DC. If it fails, it is knocked prone. This curse lasts for 1 minute or until the creature enters an area of magical silence.",
+							"Once you use this feature, you can’t do so again until you finish a short or long rest."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "Voice of the Maestro",
+		        "entries": [
+		          "At 10th level, your spirit copies the sounds it hears with perfect clarity. You gain resistance to thunder damage. Whenever you cast a spell that makes noise or the illusion of noise, you can cause it to produce any sound you wish.",
+							"Additionally, you can perfectly mimic the speech and other vocalizations of creatures you have heard, but not spellcasting. Creatures must succeed an Insight check against your warlock spell save DC to determine the sound is a mimicry, and they make this check with disadvantage."
+		        ]
+		      }]
+		    }],
+		    [{"entries": [{"name": "The Grand Finale",
+		        "entries": [
+		          "Starting at 14th level, you can use your action to call upon a single note of the Perfect Chord. Choose one of the following effects. Once you use this feature, you can’t do so again until you finish a long rest.",
+							{"type": "list",
+										"items":[
+												{"type": "entries",
+													"entries": [
+																	{"type": "entries",
+																		"name": "Celebration",
+																			"entries": [" Each friendly creature within 1 mile of you gains advantage on Charisma checks for 8 hours. During this time, these creatures can use their actions to magically conjure an instrument of their choosing, and they gain proficiency with that instrument for the duration. They can also use their action to summon delicious food or beverages sufficient to satisfy their needs for one day. They can only use each action once. Finally, they can cast any cantrips that you know that are from the schools of illusion or enchantment. After 8 hours, all of the conjured objects vanish and all ongoing effects created or enabled by this feature end."]
+																		}
+																]
+														},
+												{"type": "entries",
+																		"entries": [
+																			{"type": "entries",
+																					"name": "Defiance",
+																		"entries": ["You unleash a painful sound. Creatures of your choosing within 120 feet of you can choose to use their reaction to drop what they are holding and cover their ears. If they don’t do so, they take {@dice 8d10} thunder damage and are deafened for one hour. If they do, they take half as much damage and are not deafened."]
+																}
+														]
+												},
+												{"type": "entries",
+																"entries": [
+																	{"type": "entries",
+																			"name": "Discord",
+																"entries": ["Each hostile creature within 60 feet of you that can hear you must make a Charisma saving throw against your warlock spell save DC. If they fail, they are frightened of you and of all creatures friendly to you for one minute. A creature can repeat their saving throw at the end of each of its turns, ending the effect on a success."]
+														}
+												]
+										},
+												{"type": "entries",
+														"entries": [
+															{"type": "entries",
+																	"name": "Exaltation",
+														"entries": ["Each creature within 60 feet of you that can hear you can use their reaction to cheer. You immediately gain temporary hit points equal to ten times the number of creatures that cheer. These temporary hit points last for 10 minutes."]
+												}
+										]
+								},
+												{"type": "entries",
+												"entries": [
+													{"type": "entries",
+															"name": "Unity",
+												"entries": ["Each friendly creature within 60 feet of you that can hear you can use their reaction to immediately move up to 30 feet and make one weapon attack."]
+										}
+								]
+							}]}
+		        ]
+		      }]
+		    }]
+		  ]
+		},
+		{"name": "Discordant",
+			"shortName": "Discordant",
+			"class": "Fighter",
+			"source": "COFSA",
+			"page": 74,
+			"subclassFeatures":[
+				[{"name": "Discordant",
+					"entries": [
+						"In battle, blades clash and ring, shields break and snap, warriors yell and scream, and beneath it all, the sound of violence reigns supreme. One sound, however, stands out above the rest in your memory: the eternal song of the Perfect Chord, a manifestation of light and sound that bore witness to your conflict, collecting the cries of the wounded and the yells of the victors before vanishing once more. Inspired by this melody, you have dedicated your martial focus to the creation of dissonance, adjusting the vibrations of the universe to inflict a discordant cacophony of destructive power upon your adversaries. With weapons singing a tale of triumph and despair, you stand valiant before the chaos of everlasting war.",
+						{"type": "entries",
+							"name": "Ring the Blade",
+							"entries": [
+								"When you choose this archetype at 3rd level, you learn to make your blades sing with destructive energy.",
+								"While you are wielding a melee weapon, you can use a bonus action to make it ring with sonorous power for one minute. If the weapon leaves your hand, it stops ringing. While a weapon is ringing, it inflicts thunder damage instead of the normal type. Whenever a creature other than you starts its turn within 5 feet if you while your weapon is ringing, it takes thunder damage equal to your highest ability score modifier.",
+								"As an action while holding a ringing weapon, you can unleash this energy, generating sharpened edges of pure sound to lash out in all directions around you and causing the weapon to stop ringing. When you do this, each creature other than you within 15 feet of you takes thunder damage equal to the damage dice of the weapon plus your highest ability score modifier.",
+								"You can unleash the energy within a ringing weapon twice, and you regain these uses when you finish a short or long rest.",
+								"Starting at 7th level, unleashing this energy inflicts twice as much damage, and it inflicts three times as much damage at 15th level."
+							]
+						},
+						{"type": "entries",
+							"name": "Hear the Silence",
+							"entries": [
+								"Also at 3rd level, you learn to stop noise around you by disrupting your own heartbeat. As a bonus action, you can cast {@spell silence} centered on yourself. When cast in this way, it requires no verbal, somatic, or material components, lasts until the start of your next turn, and affects a 5-foot-radius sphere centered on you."
+							]
+						},
+						{"type": "options",
+							"name": "Maneuvers",
+							"entries": [
+								"Presented here are maneuvers unique to the Timeless Monumental, allowing them to call on the power of the Citadel’s endless intent. These maneuvers are designed for use with Fighting Maneuvers, a replacement for Fighting Styles published by Vorpal Dice Press. If you are not using this supplement, then ignore this section.",
+								{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "Crashing Symbol",
+											"entries": [
+												"{@i Prerequisite: Discordant archetype}",
+												"When you are hit by an attack, you can use your reaction to unleash a burst of sound. If the attacker is within 10 feet of you and can hear, they suffer disadvantage on their next attack against you before the start of their next turn."
+											]
+										}
+									]
+								},
+								{"type": "entries",
+									"entries": [
+										{"type": "entries",
+											"name": "Sonic Blade",
+											"entries": [
+												"{@i Prerequisite: Discordant archetype}",
+												"When you take the {@action Attack} action on your turn and make an attack with your ringing weapon, you can choose to hone the disruptive sound. If this attack hits a creature that is concentrating on a spell, it has disadvantage on the saving throw to maintain concentration."
+											]
+										}
+									]
+								}
+									]
+								}
+							]
+						}],
+				[{"entries": [{"name": "Defy Harmony",
+						"entries": [
+							"At 7th level, you move against the beat of the universe, like nails upon life’s chalkboard. You gain proficiency in the Intimidation skill. When you wield a weapon that is ringing, your attacks with that weapon ignore disadvantage caused by your target being heavily obscured."
+						]
+					}]}],
+				[{"entries": [{"name": "Shatter Syncronicity",
+							"entries": [
+								"At 10th level, you learn to further manipulate sound and silence. Friendly creatures within 15 feet of you gain resistance to thunder damage. When a hostile creature takes thunder damage as a result of starting its turn within 5 feet of you while your weapon is ringing, it becomes disrupted by eldritch vibrations that interfere with spellcasting. If it tries to cast a spell with a verbal component before the start of your next turn, it takes {@dice 2d10} thunder damage immediately after casting the spell. If this would cause it to make a concentration saving throw, it makes this saving throw with disadvantage."
+							]
+						}]}],
+				[{"entries": [{"name": "Strike Unhindered",
+								"entries": [
+									"At 15th level, while your weapon is ringing, you can use a bonus action to take the Dash action. When you do, you automatically break free from any creature grappling you. After you use this bonus action, any creature or object other than you within 5 feet of you at any time during your turn takes thunder damage equal to your highest ability score modifier at the end of your turn"
+								]
+							}]}],
+			  [{"entries": [{"name": "As Perfect Imperfection",
+							"entries": [
+									"At 18th level, your path has taken you to the final measure, as you at last become the metronome of the Chord. Your heartbeat is as unstoppable as it is unpredictable, and your pulse thunders in your ears. Whenever you are below half your maximum hit points, you can unleash the energy within a ringing weapon without expending your use of the feature.",
+									"Whenever you are reduced to 0 hit points, you can choose to be reduced to 1 hit point instead. Once you do so, you can’t do so again until you finish a long rest. "
+											]
+										}]}]
+			]
+		},
+		{"name": "The Serpent Empress",
+			"shortName": "Serpent Empress",
+			"class": "Warlock",
+			"source": "COFSA",
+			"page": 78,
+			"subclassSpells": [
+				"Command",
+				"Ray of Sickness",
+				"Protection from Poison",
+				"Silence",
+				"Feign Death",
+				{"name": "Venom Blast",
+					"source": "COFSA"
+				},
+				"Compulsion",
+				{"name": "Serpentine Ward",
+					"source": "COFSA"
+				},
+				"Cloudkill",
+				{"name": "Constriction",
+					"source": "COFSA"
+				}
+			],
+			"subclassFeatures": [
+				[{"name": "The Serpent Empress",
+					"entries": [
+						"Situated within her palace of gold and turquoise, the Serpent Empress sleeps in serene silence, guiding her slaves to serve in her secret business. Envious and vain, the Empress personifies greed and avarice in the hearts of man. Jealousy, spite, and simple pride have driven her servants to her side. She whispers in a sibilant voice, speaking of wealth and power promised but so rarely delivered. The sins she offers are subtle at first, but grow in style and salaciousness with every slow cycle of the hourglass. You’ve assigned yourself to her service and sworn fealty to the Serpent Empress in exchange for a sliver of her supreme strength.",
+						{"name": "Expanded Spell List",
+							"entries": [
+								"The Serpent Empress lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+								{"type": "table",
+									"caption": "Serpent Empress Expanded Spells",
+									"colLabels": [
+										"Spell Level",
+										"Spells"
+									],
+									"colStyles": [
+										"col-3 text-center",
+										"col-9"
+									],
+									"rows": [
+										[
+											"1st",
+											"{@spell Command}, {@spell Ray of Sickness}"
+										],
+										[
+											"2nd",
+											"{@spell Protection from Poison}, {@spell Silence}"
+										],
+										[
+											"3rd",
+											"{@spell Feign Death}, {@spell Venom Blast|COFSA}"
+										],
+										[
+											"4th",
+											"{@spell Compulsion}, {@spell Serpentine Ward|COFSA}"
+										],
+										[
+											"5th",
+											"{@spell Cloudkill}, {@spell Constriction|COFSA}"
+										]
+									]
+								}
+							]
+						},
+						{"name": "Blessing of the Empress",
+							"entries": [
+								"At 1st level, you receive the favor of your patron. You gain advantage on saving throws against poison and effects that inflict the poisoned condition. You can speak to snakes, serpents, and other reptiles as though you were under the effects of the {@spell Speak with Animals} spell.",
+								"Whenever you cast a spell that has a verbal component, you can suppress the senses of those around you. Choose one creature that can hear you within 30 feet of you. Your spellcasting is silent to that creature, and it has disadvantage on its next Wisdom, Intelligence, or Charisma check within 1 minute."
+							]
+						}
+					]
+				}],
+				[{"entries": [{"name": "Hair of Snakes",
+						"entries": [
+							"At 6th level, you can cause a swarm of serpents to grow from your head as a bonus action, and they remain until you dismiss them. While they are out, you can see through the eyes of these serpents. As long as the serpents can see, you have advantage on Perception checks, gain darkvision out to 30 feet, and gain immunity to the {@condition blinded} condition.",
+							"While you are within 10 feet of a creature, you can use your action to have your serpents whisper a sinful secret to the creature. The target must make a Wisdom saving throw against your warlock spell save DC. If it fails, it is charmed by you until the end of your next turn or until it takes damage."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Toxic Blood",
+						"entries": [
+							"At 10th level, your veins run with venom. You gain resistance to poison damage and immunity to the {@condition poisoned} condition.",
+							"Additionally, you can have poison damage you deal treat poison immunity as poison resistance. You can have creatures immune to the {@condition poisoned} condition lose their immunity against your attacks and effects, but they gain advantage on saving throws to resist the poisoned condition."
+						]
+					}]
+				}],
+				[{"entries": [{"name": "Gaze of the Goddess",
+						"entries": [
+							"At 14th level, your patron looks from your eyes and exerts her supreme power through you. As an action, choose one creature within 30 feet of you that you can see. The target is paralyzed for one minute. If the target takes damage, the effect ends. If the target is immune to paralysis, it takes {@dice 3d10} psychic damage and is knocked prone."
+						]
+					}]
+				}]
+			]
+		}
+	]
+  }
