@@ -2124,7 +2124,7 @@
 				}],
 				[{"entries": [{"name": "Gaze of the Goddess",
 						"entries": [
-							"At 14th level, your patron looks from your eyes and exerts her supreme power through you. As an action, choose one creature within 30 feet of you that you can see. The target is paralyzed for one minute. If the target takes damage, the effect ends. If the target is immune to paralysis, it takes {@dice 3d10} psychic damage and is knocked {@condition prone}."
+							"At 14th level, your patron looks from your eyes and exerts her supreme power through you. As an action, choose one creature within 30 feet of you that you can see. The target is paralyzed for one minute. If the target takes damage, the effect ends. If the target is immune to paralysis, it takes {@dice 3d10} psychic damage and is knocked prone."
 						]
 					}]
 				}]
