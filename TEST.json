@@ -1,5 +1,4 @@
-{
-	"$schema": "../schema.json",
+{"$schema": "../schema.json",
 	"_meta": {
 	"sources": [{"json": "COFSA",
 			"abbreviation": "CoFS:A",
@@ -2034,101 +2033,6 @@
 									"Whenever you are reduced to 0 hit points, you can choose to be reduced to 1 hit point instead. Once you do so, you can’t do so again until you finish a long rest. "
 											]
 										}]}]
-			]
-		},
-		{"name": "The Serpent Empress",
-			"shortName": "Serpent Empress",
-			"class": "Warlock",
-			"source": "COFSA",
-			"page": 78,
-			"subclassSpells": [
-				"Command",
-				"Ray of Sickness",
-				"Protection from Poison",
-				"Silence",
-				"Feign Death",
-				{"name": "Venom Blast",
-					"source": "COFSA"
-				},
-				"Compulsion",
-				{"name": "Serpentine Ward",
-					"source": "COFSA"
-				},
-				"Cloudkill",
-				{"name": "Constriction",
-					"source": "COFSA"
-				}
-			],
-			"subclassFeatures": [
-				[{"name": "The Serpent Empress",
-					"entries": [
-						"Situated within her palace of gold and turquoise, the Serpent Empress sleeps in serene silence, guiding her slaves to serve in her secret business. Envious and vain, the Empress personifies greed and avarice in the hearts of man. Jealousy, spite, and simple pride have driven her servants to her side. She whispers in a sibilant voice, speaking of wealth and power promised but so rarely delivered. The sins she offers are subtle at first, but grow in style and salaciousness with every slow cycle of the hourglass. You’ve assigned yourself to her service and sworn fealty to the Serpent Empress in exchange for a sliver of her supreme strength.",
-						{"name": "Expanded Spell List",
-							"entries": [
-								"The Serpent Empress lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
-								{"type": "table",
-									"caption": "Serpent Empress Expanded Spells",
-									"colLabels": [
-										"Spell Level",
-										"Spells"
-									],
-									"colStyles": [
-										"col-3 text-center",
-										"col-9"
-									],
-									"rows": [
-										[
-											"1st",
-											"{@spell Command}, {@spell Ray of Sickness}"
-										],
-										[
-											"2nd",
-											"{@spell Protection from Poison}, {@spell Silence}"
-										],
-										[
-											"3rd",
-											"{@spell Feign Death}, {@spell Venom Blast|COFSA}"
-										],
-										[
-											"4th",
-											"{@spell Compulsion}, {@spell Serpentine Ward|COFSA}"
-										],
-										[
-											"5th",
-											"{@spell Cloudkill}, {@spell Constriction|COFSA}"
-										]
-									]
-								}
-							]
-						},
-						{"name": "Blessing of the Empress",
-							"entries": [
-								"At 1st level, you receive the favor of your patron. You gain advantage on saving throws against poison and effects that inflict the poisoned condition. You can speak to snakes, serpents, and other reptiles as though you were under the effects of the {@spell Speak with Animals} spell.",
-								"Whenever you cast a spell that has a verbal component, you can suppress the senses of those around you. Choose one creature that can hear you within 30 feet of you. Your spellcasting is silent to that creature, and it has disadvantage on its next Wisdom, Intelligence, or Charisma check within 1 minute."
-							]
-						}
-					]
-				}],
-				[{"entries": [{"name": "Hair of Snakes",
-						"entries": [
-							"At 6th level, you can cause a swarm of serpents to grow from your head as a bonus action, and they remain until you dismiss them. While they are out, you can see through the eyes of these serpents. As long as the serpents can see, you have advantage on Perception checks, gain darkvision out to 30 feet, and gain immunity to the {@condition blinded} condition.",
-							"While you are within 10 feet of a creature, you can use your action to have your serpents whisper a sinful secret to the creature. The target must make a Wisdom saving throw against your warlock spell save DC. If it fails, it is charmed by you until the end of your next turn or until it takes damage."
-						]
-					}]
-				}],
-				[{"entries": [{"name": "Toxic Blood",
-						"entries": [
-							"At 10th level, your veins run with venom. You gain resistance to poison damage and immunity to the {@condition poisoned} condition.",
-							"Additionally, you can have poison damage you deal treat poison immunity as poison resistance. You can have creatures immune to the {@condition poisoned} condition lose their immunity against your attacks and effects, but they gain advantage on saving throws to resist the poisoned condition."
-						]
-					}]
-				}],
-				[{"entries": [{"name": "Gaze of the Goddess",
-						"entries": [
-							"At 14th level, your patron looks from your eyes and exerts her supreme power through you. As an action, choose one creature within 30 feet of you that you can see. The target is paralyzed for one minute. If the target takes damage, the effect ends. If the target is immune to paralysis, it takes {@dice 3d10} psychic damage and is knocked prone."
-						]
-					}]
-				}]
 			]
 		}
 	]
